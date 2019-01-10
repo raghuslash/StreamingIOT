@@ -35,7 +35,7 @@ if not os.path.isfile(ldfile):
 
 try:
         
-         raw=pd.read_csv(ldfile, usecols=['timestamp', 'data.ax', 'data.ay', 'data.az'])
+         raw=pd.read_csv(ldfile, usecols=['timestamp', 'data.ax', 'data.az'])
 
 except:
 
