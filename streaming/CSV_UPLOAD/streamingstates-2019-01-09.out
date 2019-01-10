@@ -1,0 +1,876 @@
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:19.741461","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:21.062434","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:22.382899","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:23.682196","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:24.990330","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:26.319119","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:27.651932","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:28.981022","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:30.303632","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:31.646878","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:32.947623","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:34.238937","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:35.570255","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:36.955713","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:38.256907","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:39.572034","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:40.903286","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:42.227536","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:43.528047","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:44.863017","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:46.207456","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:47.572439","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:48.895261","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:50.226863","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:51.525275","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:52.871336","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:54.209098","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:55.512361","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:56.865358","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:58.176848","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:20:59.474844","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:00.823152","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:02.175544","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:03.471121","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:04.772188","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:06.067502","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:07.375172","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:08.691309","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:09.985337","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:11.320071","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:12.696090","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:14.018025","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:15.311194","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:16.639066","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:17.935099","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:19.231716","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:20.526778","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:21.838810","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:23.198994","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:24.497286","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:25.807641","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:27.167237","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:28.510558","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:29.824081","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:31.208554","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:32.535667","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:33.909135","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:35.238950","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:36.563078","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:37.903658","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:39.246943","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:40.566158","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:41.873353","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:43.205595","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:44.511927","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:45.826839","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:47.203789","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:48.495058","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:49.815385","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:51.122246","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:52.430820","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:53.734711","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:55.054635","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:56.391387","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:57.731690","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:21:59.024569","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:00.351017","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:01.679044","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:02.975758","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:04.306853","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:05.632017","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:06.951204","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:08.260266","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:09.566988","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:10.891492","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:12.215313","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:13.571817","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:14.930331","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:16.238842","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:17.572712","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:18.887093","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:20.230014","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:21.573458","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:22.927139","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:24.237799","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:25.571862","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:26.932544","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:28.258325","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:29.569303","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:30.895068","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:32.190761","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:33.507847","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:34.815077","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:36.126680","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:37.432894","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:38.822892","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:40.184924","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:41.487224","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:42.819371","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:44.130543","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:45.439830","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:46.735206","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:48.070412","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:49.396717","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:50.738462","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:52.063112","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:53.378192","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:54.689955","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:56.015177","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:57.359099","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:58.677123","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:22:59.989265","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:01.313936","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:02.622970","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:03.920649","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:05.235208","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:06.546574","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:07.855135","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:09.205872","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:10.513568","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:11.806919","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:13.134912","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:14.455877","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:15.758486","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:17.073224","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:18.383805","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:19.694513","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:20.994726","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:22.305457","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:23.679053","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:24.991191","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:26.310024","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:27.684359","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:29.001341","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:30.324899","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:31.694672","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:32.990783","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:34.310552","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:35.686643","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:36.990570","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:38.303561","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:39.654922","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:40.975515","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:42.307306","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:43.631010","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:44.943499","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:46.254865","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:47.564116","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:48.929749","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:50.238803","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:51.554164","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:52.901614","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:54.222803","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:55.519832","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:56.884632","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:58.218379","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:23:59.551875","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:00.903641","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:02.242362","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:03.550873","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:04.937152","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:06.257898","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:07.553744","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:08.894480","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:10.222698","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:11.518184","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:12.885132","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:14.245486","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:15.571612","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:16.894927","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:18.216419","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:19.527119","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:20.878768","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:22.196298","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:23.502833","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:24.814625","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:26.149748","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:27.470159","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:28.805852","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:30.134889","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:31.476789","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:32.799389","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:34.148820","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:35.514467","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:36.818287","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:38.146592","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:39.443026","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:40.753413","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:42.063915","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:43.377841","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:44.702611","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:46.014878","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:47.390831","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:48.702640","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:49.998989","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:51.328768","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:52.679627","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:53.978344","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:55.310725","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:56.622684","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:57.934776","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:24:59.233346","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:00.526722","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:01.862261","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:03.175576","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:04.482733","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:05.812946","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:07.142286","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:08.494904","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:09.809639","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:11.136803","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:12.452656","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:13.758318","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:15.069842","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:16.387882","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:17.694511","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:19.014476","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:20.358577","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:21.699589","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:23.009836","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:24.306347","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:25.662945","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:26.974506","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:28.311011","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:29.662975","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:30.998057","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:32.323329","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:33.697743","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:34.998476","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:36.324460","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:37.652418","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:38.983131","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:40.304975","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:41.678755","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:42.982506","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:44.302808","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:45.614630","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:46.941869","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:48.238934","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:49.550691","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:50.879002","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:52.198533","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:53.558333","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:54.926922","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:56.228333","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:57.557884","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:25:58.894873","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:00.222708","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:01.557247","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:02.894636","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:04.190527","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:05.486746","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:06.801564","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:08.145118","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:09.438950","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:10.758782","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:12.084830","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:13.444441","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:14.734804","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:16.063987","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:17.423411","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:18.738354","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:20.052415","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:21.398675","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:22.719412","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:24.054824","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:25.390907","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:26.707538","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:28.022189","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:29.365083","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:30.702861","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:32.001415","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:33.310928","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:34.630555","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:35.950479","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:37.267834","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:38.609963","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:39.934691","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:41.254472","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:42.607007","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:43.934695","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:45.230869","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:46.562997","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:47.905621","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:49.221701","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:50.558667","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:51.873755","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:53.166702","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:54.468038","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:55.758832","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:57.070783","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:58.386259","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:26:59.694938","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:00.999598","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:02.308100","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:03.671541","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:04.990752","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:06.302447","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:07.651399","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:08.998583","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:10.308487","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:11.614614","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:12.945167","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:14.256865","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:15.553487","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:16.878885","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:18.214274","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:19.559038","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:20.927045","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:22.254437","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:23.552786","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:24.894814","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:26.191573","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:27.486549","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:28.855443","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:30.212898","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:31.517694","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:32.851506","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:34.181354","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:35.487517","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:36.806944","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:38.175958","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:39.474286","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:40.769526","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:42.078656","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:43.423259","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:44.722425","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:46.049715","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:47.391186","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:48.687818","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:50.003281","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:51.310836","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:52.639985","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:53.934252","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:55.233696","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:56.565601","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:57.892163","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:27:59.179627","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:00.510474","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:01.862742","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:03.190383","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:04.504615","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:05.807824","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:07.121250","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:08.450928","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:09.748354","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:11.112203","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:12.451553","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:13.759884","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:15.103469","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:16.433298","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:17.733124","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:19.055279","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:20.374717","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:21.694601","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:22.994353","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:24.305307","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:25.614772","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:26.948148","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:28.246941","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:29.550199","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:30.871592","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:32.190644","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:33.489192","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:34.798918","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:36.163017","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:37.470966","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:38.799759","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:40.159826","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:41.471323","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:42.806262","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:44.150211","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:45.473216","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:46.772720","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:48.097797","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:49.438492","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:50.760929","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:52.134701","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:53.473957","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:54.799685","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:56.158917","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:57.470807","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:28:58.778078","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:00.094612","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:01.446644","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:02.754760","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:04.062652","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:05.422692","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:06.734377","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:08.062891","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:09.471153","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:10.800854","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:12.136376","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:13.492464","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:14.801300","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:16.109764","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:17.455275","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:18.750735","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:20.046439","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:21.433101","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:22.734502","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:24.068010","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:25.454926","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:26.815223","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:28.161957","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:29.470800","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:30.798801","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:32.113767","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:33.441518","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:34.734375","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:36.050363","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:37.374426","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:38.694863","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:39.998372","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:41.332516","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:42.686895","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:43.997669","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:45.298013","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:46.639620","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:47.935269","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:49.230516","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:50.558575","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:51.902569","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:53.218947","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:54.513387","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:55.854369","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:57.184922","state":0,"device":"screenprinter"}
+{ "index":{} }
+{"timestamp":"2019-01-09T18:29:58.520595","state":0,"device":"screenprinter"}
