@@ -3,16 +3,20 @@
 
 # In[1]:
 
-
-import pandas as pd
 import os
 import sys
+import pandas as pd
+import matplotlib.pyplot as plt
+import scipy.signal
+import numpy as np
+import seaborn as sns
+import time
 
 
 # In[2]:
 
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 # In[3]:
@@ -35,7 +39,7 @@ if not os.path.isfile(ldfile):
 
 try:
         
-         raw=pd.read_csv(ldfile, usecols=['timestamp', 'data.ax', 'data.az'])
+         raw_ld=pd.read_csv(ldfile, usecols=['timestamp', 'data.ax', 'data.az'])
 
 except:
 
@@ -44,27 +48,29 @@ except:
 
 # In[4]:
 
-raw.dropna(inplace=True)
-raw["acc"]=( raw["data.ax"]**2 + raw["data.az"]**2 ) ** 0.5
+
+raw_ld.sort_values(by=['timestamp'], inplace=True)
+raw_ld.reset_index(inplace=True)
+raw_ld.dropna(axis=0, inplace=True)
 
 # In[6]:
 
 
-acc=raw[["timestamp", "acc"]]
+raw_ld["acc"] = ( raw_ld["data.ax"]**2 + raw_ld["data.az"]**2 ) ** 0.5
+acc=raw_ld[["timestamp", "acc"]]
 acc.set_index('timestamp')
-# acc.head()
-
+test_ld=acc
+test_ld['acc']=pd.Series.to_frame(test_ld.acc.rolling(100, center=True).std())
+test_ld['timestamp'] =  pd.to_datetime(test_ld['timestamp'])
 
 # In[7]:
 
 
-
-test=acc
-#test['acc']=pd.Series.to_frame(test.acc.rolling(75, center=True).std())
-test['acc']=pd.Series.to_frame(test.acc.rolling(750, center=True).std())
-
+timethresh=12
+test_ld.insert(2,'state',0)
 
 # In[11]:
+
 
 
 import scipy.signal
@@ -76,88 +82,74 @@ import numpy as np
 
 
 #board=scipy.signal.find_peaks(test.acc,height=(0.016), width=3)
-board=scipy.signal.find_peaks(test.acc,height=(0.01), width=3)
+board=scipy.signal.find_peaks(test_ld.acc, height=(0.01), distance=timethresh*72, width=1)
+differ=np.diff(board[0])
+differ=differ.tolist()
 
 # In[19]:
 
+for x in board[0]:
+    test_ld.at[x, 'state'] = 1
 
+ld_boards=test_ld[test_ld['state']==1]
+print('Boards detected in LD:', ld_boards.shape[0])
 
 
 # In[20]:
 
+'''
+fig, ax1 = plt.subplots()
 
-boards=[]
-differ=np.diff(board[0])
-differ=differ.tolist()
+ax1.stem(ld_boards['timestamp'], ld_boards['state'], 'orange')
 
-# differ
+# ax1.xaxis.set_major_locator(mdates.DateFormatter('%H:%M'))
+
+ax1.set_xlabel('Time')
+
+ax2 = ax1.twinx()
+
+ax2.plot(test_ld['timestamp'], test_ld['acc'], 'blue')
+
+plt.title('Board Detections')
+
+'''
 
 
 # In[21]:
 
-
-# binwidth=200
-# plt.hist(differ, bins=np.arange(min(differ), max(differ) + binwidth, binwidth))
-# print(np.percentile(differ, 30))
-
+loading_delays_rawdf=pd.DataFrame({"sample_number":board[0], "working_time":board[1]['widths']/72})
+LD_events=pd.DataFrame({"timestamp":test_ld.iloc[loading_delays_rawdf.sample_number].timestamp, "event":1, "working_time":(loading_delays_rawdf.working_time).tolist()})
 
 # In[22]:
 
+LD_events.index=LD_events.timestamp
+LD_events.drop('timestamp', axis=1, inplace=True)
+LD_events['energy']=float('nan')
 
-test.insert(2,'state',0)
-boards=[]
-if len(board[0]) > 0:
-	boards.append(board[0][0])
-	for i, x in enumerate(board[0]):
-    		try:
-        		if differ[i]>2000:
-           			#print(x)
-            			boards.append(board[0][i])
-            			test.at[x, 'state']=1
-        		else:
-            			test.at[x, 'state']=2
-    		except:
-        		continue
+LD_events['device']='loader'
+print(LD_events)
 
 # In[ ]:
 
-
-# In[ ]:
-
-
-#test.plot()
-#plt.margins(0)
-#plt.savefig("/mnt/UltraHD/streamingStates/LD/LDStates.png") 
-#plt.savefig("LDStates.png")
-# In[ ]:
-
-
-print(len(boards), 'boards found.')
-
-
+timestr = time.strftime("%H-%M")
+print('LD loading time mode: ', LD_events.working_time.mode().mean())
+parameters=open('/home/richard/Desktop/LiveParameters/LDparameters.txt','a+')
+parameters.write(timestr +'\tLD loading time mode: ' + str(LD_events.working_time.mode().mean())+'\n')
+parameters.close()
 # In[24]:
 
 if not os.path.exists('/mnt/UltraHD/streamingStates/LD'):
 
     os.makedirs('/mnt/UltraHD/streamingStates/LD')
 
-
+# sns.distplot(LD_events.working_time)
+# plt.title('Loader Loading Times Histogram')
+#plt.savefig("/mnt/UltraHD/streamingStates/LD/LDboards_hist.png") 
 
 directory='/mnt/UltraHD/streamingStates/LD'
 
 
-test.dropna(how='all', axis=1)
-test.drop('acc', axis=1, inplace=True)
-test.index = test["timestamp"]
-test.drop("timestamp",axis=1, inplace=True)
-
-
-test['device']='loader'
-print(test)
-import time
-
 timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
-print("Saving States with file name -", timestr+"LD.csv")
-test.to_csv('/mnt/UltraHD/streamingStates/LD/'+ timestr+"LD.csv")
-#test.to_csv(timestr+"LD.csv")
+print("Saving States with file name -", timestr+"_LD.csv")
+LD_events.to_csv('/mnt/UltraHD/streamingStates/LD/'+ timestr+"_LD.csv")
 

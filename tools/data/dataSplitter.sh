@@ -2,7 +2,7 @@
 
 
 fline=$(head -1 out.csv)
-for device in "loader" "screenprinter_plus_vaf" "reflowoven_vaf"
+for device in "loader" "screenprinter_plus_vaf" "reflowoven_vaf" "pickandplace1" "pickandplace2"
 
 do	
         echo "Grepping.... $device"

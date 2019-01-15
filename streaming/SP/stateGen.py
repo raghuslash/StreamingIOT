@@ -8,12 +8,12 @@ import pandas as pd
 import os
 import sys
 import time
-
+import matplotlib.pyplot as plt
+import scipy.signal
+import numpy as np
+import seaborn as sns
 
 # In[2]:
-
-
-import matplotlib.pyplot as plt
 
 
 # In[3]:
@@ -38,126 +38,105 @@ if not os.path.isfile(spfile):
         exit(1)
 
 try:
-        
-        test = pd.read_csv(spfile, usecols =['timestamp', 'data.A1'])
+    raw_sp = pd.read_csv(spfile, usecols =['timestamp', 'data.A1'])
 
 except:
 
         print("Invalid file!")
         exit(3)
-#only one phase for sp
-test.dropna(inplace=True)
+
+raw_sp.sort_values(by=['timestamp'])
+raw_sp.reset_index(inplace=True)
+raw_sp['timestamp'] =  pd.to_datetime(raw_sp['timestamp'])
 # In[5]:
 
-#test=raw.head(60*mins)
-#test.index=test['timestamp']
-#test.to_csv('sp_head.csv', index=False)
-
-
+test_sp=raw_sp
+sptimethresh=12
 
 # In[6]:
 
-
-#test=pd.read_csv('sp_head.csv')
-#test.plot()
-#plt.margins(0)
-
+test_sp=test_sp[['data.A1','timestamp']]
 
 # In[7]:
 
-
-import scipy.signal
-import numpy as np
-
-
+test_sp['sum']=pd.Series.to_frame(test_sp['data.A1'].rolling(12, center=True).sum())
 # In[8]:
 
 
-test=test[['data.A1','timestamp']]
-#test['norm.data.A1']=(test['data.A1']-test['data.A1'].mean())/test['data.A1'].std()
-events=scipy.signal.find_peaks(test['data.A1'], height=(2.22), width=1)
-# test['data.A1']
-
+# plt.plot(test_sp['timestamp'], test_sp['sum'])
+# plt.plot(test_sp['timestamp'], test_sp['data.A1']*10)
 
 # In[9]:
 
-
-#plt.scatter(events[0], events[1]['peak_heights'], color='r', marker='o')
-#plt.stem(events[0], events[1]['peak_heights'])
-#plt.xlim(xmin = 0)
+sptimethresh=12
+printing_delays_raw=scipy.signal.find_peaks(test_sp['sum'], height=(24, 30), distance=sptimethresh, width=1)
+printing_delays_raw_df=pd.DataFrame({"sample_number":printing_delays_raw[0], "working_time":printing_delays_raw[1]['widths']})
+cleaning_delays_raw=scipy.signal.find_peaks(test_sp['sum'], height=60, distance=sptimethresh, width=1)
+cleaning_delays_raw_df=pd.DataFrame({"sample_number":cleaning_delays_raw[0], "working_time":cleaning_delays_raw[1]['widths']})
 
 # In[10]:
 
 
-test.insert(2,'state',0)
-sampleno=0
-if len(events[0])>0:
-	for x in events[0]:
-		if test.ix[x, 'data.A1'] < 5:
-			test.at[x, 'state'] = 1
-		elif test.ix[x, 'data.A1'] > 9:
-			test.at[x, 'state'] = 2
-
-import datetime as dt
-import time
-import matplotlib.dates as mdates
-
-pattern="%Y-%m-%dT%H:%M:%S.%f"
-detect=test[test['state'] == 1]
-detect['timestamp'] =  pd.to_datetime(detect['timestamp'], format=pattern)
+SP_events=pd.DataFrame({"timestamp":test_sp.iloc[printing_delays_raw_df.sample_number].timestamp, "event":1, "working_time":printing_delays_raw_df.working_time.tolist()})
+cleanings=pd.DataFrame({"timestamp":test_sp.iloc[cleaning_delays_raw_df.sample_number].timestamp, "event":2, "working_time":cleaning_delays_raw_df.working_time.tolist()})
+SP_events.reset_index(inplace=True)
+cleanings.reset_index(inplace=True)
 
 
-detect=detect.diff()
-detect=detect[["timestamp"]].applymap(lambda x: x.seconds)
-
-for x in detect.index.tolist():
-    if detect.ix[x, 'timestamp'] < 20 :
-        test.at[x, 'state']=0
+for x, row in SP_events.iterrows():
+    SP_events.ix[x,'energy']=test_sp.ix[int(printing_delays_raw[1]['left_ips'][x]):int(printing_delays_raw[1]['right_ips'][x]), 'data.A1'].sum()*230
 
 # In[11]:
 
+for x, row in cleanings.iterrows():
+    cleanings.ix[x,'energy']=test_sp.ix[int(cleaning_delays_raw[1]['left_ips'][x]):int(cleaning_delays_raw[1]['right_ips'][x]), 'data.A1'].sum()*230
 
-#test.plot()
-#plt.xlim(xmin = 0)
-
-#plt.title('Screenprinter  States')
-#plt.savefig('/mnt/UltraHD/streamingStates/SP/SPStates.png')
-#plt.savefig('SPStates.png')
 # In[12]:
 
+SP_events.index=SP_events.timestamp
+SP_events.drop('timestamp', axis=1, inplace=True)
+SP_events.drop('index', axis=1, inplace=True)
 
-test['state'].value_counts()
-print(len(test.query('state == 1')), 'boards found.')
+cleanings.index=cleanings.timestamp
+cleanings.drop('timestamp', axis=1, inplace=True)
+cleanings.drop('index', axis=1, inplace=True)
+
+SP_events=SP_events.append(cleanings)
 
 
 # In[15]:
 
-
-test.drop('data.A1', axis=1, inplace=True)
-test.index = test["timestamp"]
-test.drop("timestamp",axis=1, inplace=True)
-
-test['device']='screenprinter'
-print(test)
-
 # In[16]:
+SP_events['device']='screenprinter'
+print(SP_events)
+
+timestr = time.strftime("%H-%M")
+print('Printing time Mode: ', SP_events.working_time[SP_events['event']==1].mode().mean())
+print('Cleaning time Mode: ', SP_events.working_time[SP_events['event']==2].mode().mean())
+parameters=open('/home/richard/Desktop/LiveParameters/SPparameters.txt','a+')
+parameters.write(timestr +'\tSP printing time mode: ' + str(SP_events.working_time[SP_events['event']==1].mode().mean())+'\n')
+parameters.write(timestr +'\tSP cleaning time mode: ' + str(SP_events.working_time[SP_events['event']==2].mode().mean())+'\n')
+parameters.close()
+
 
 if not os.path.exists('/mnt/UltraHD/streamingStates/SP'):
 
     os.makedirs('/mnt/UltraHD/streamingStates/SP')
 
 
+# sns.distplot(SP_events.working_time[SP_events['event']==1])
+# plt.title('SP Printing Times Histogram')
+# plt.savefig("/mnt/UltraHD/streamingStates/SP/SPprinting_hist.png") 
+# sns.distplot(SP_events.working_time[SP_events['event']==2])
+# plt.title('SP Cleaning Times Histogram')
+# plt.savefig("/mnt/UltraHD/streamingStates/SP/SPcleaning_hist.png") 
 
 directory='/mnt/UltraHD/streamingStates/SP'
 
-
-import time
-
 timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
 
-print("Saving States with file name -", timestr+"SP.csv")
-
-test.to_csv('/mnt/UltraHD/streamingStates/SP/'+ timestr+"SP.csv")
+print("Saving States with file name -", timestr+"_SP.csv")
+SP_events.to_csv('/mnt/UltraHD/streamingStates/SP/'+ timestr+"_SP.csv")
 
 #test.to_csv(timestr+"SP.csv")
 
