@@ -86,34 +86,6 @@ board=scipy.signal.find_peaks(test_ld.acc, height=(0.01), distance=timethresh*72
 differ=np.diff(board[0])
 differ=differ.tolist()
 
-# In[19]:
-
-for x in board[0]:
-    test_ld.at[x, 'state'] = 1
-
-ld_boards=test_ld[test_ld['state']==1]
-print('Boards detected in LD:', ld_boards.shape[0])
-
-
-# In[20]:
-
-'''
-fig, ax1 = plt.subplots()
-
-ax1.stem(ld_boards['timestamp'], ld_boards['state'], 'orange')
-
-# ax1.xaxis.set_major_locator(mdates.DateFormatter('%H:%M'))
-
-ax1.set_xlabel('Time')
-
-ax2 = ax1.twinx()
-
-ax2.plot(test_ld['timestamp'], test_ld['acc'], 'blue')
-
-plt.title('Board Detections')
-
-'''
-
 
 # In[21]:
 

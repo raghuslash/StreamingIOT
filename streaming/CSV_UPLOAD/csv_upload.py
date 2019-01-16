@@ -23,8 +23,8 @@ def upload(jsonline):
     
     r = requests.post("{}/{}/{}/_bulk".format(eshost,output_es_index,"mydoctype"),
             headers={"Content-Type":"application/json"}, data=data)
-    print (r.text)
-    print ("%s" % (r.status_code) )
+    #print (r.text)
+    #print ("%s" % (r.status_code) )
     #print (r.text)
 
 
