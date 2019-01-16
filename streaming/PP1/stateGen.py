@@ -42,7 +42,6 @@ raw_pp_current.dropna(axis=0, inplace=True)
 raw_pp_current.sort_values(by=['timestamp'])
 raw_pp_current.reset_index(inplace=True)
 raw_pp_current['total_current']=raw_pp_current['data.A1']+raw_pp_current['data.A2']+raw_pp_current['data.A3']
-raw_pp_current['timestamp']=pd.to_datetime(raw_pp_current['timestamp'])
 raw_pp_current.index=raw_pp_current['timestamp']
 
 
