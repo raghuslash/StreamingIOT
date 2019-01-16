@@ -75,12 +75,12 @@ for x, row in working_times_raw_df.iterrows():
     working_times_raw_df.ix[x,'end_time']=test_pp.iloc[int(working_times_raw[1]['right_ips'][x])].timestamp
     working_times_raw_df.ix[x,'timestamp']=test_pp.iloc[int(working_times_raw[0][x])].timestamp
 
-    working_times_df=working_times_raw_df[working_times_raw_df.working_time>30]
-    working_times_df['event']=1
-    working_times_df['energy'] = working_times_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) & 
+working_times_df=working_times_raw_df[working_times_raw_df.working_time>30]
+working_times_df['event']=1
+working_times_df['energy'] = working_times_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) & 
                                                             (x.start_time <= raw_pp_current.timestamp),
                                                             ['total_current']].sum()*230, axis=1)
-    working_times_df.index=working_times_df.timestamp
+working_times_df.index=working_times_df.timestamp
 working_times_df.drop('timestamp', axis=1, inplace=True)
 working_times_df.drop('sample_number', axis=1, inplace=True)
 

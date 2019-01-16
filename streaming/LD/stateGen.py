@@ -67,7 +67,6 @@ test_ld['timestamp'] =  pd.to_datetime(test_ld['timestamp'])
 
 
 timethresh=12
-test_ld.insert(2,'state',0)
 
 # In[11]:
 
