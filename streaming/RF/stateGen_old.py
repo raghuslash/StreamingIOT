@@ -241,9 +241,9 @@ import time
 
 timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
 
-print("Saving States with file name - ", timestr+'_RF.csv')
+print("Saving States with file name -", timestr+'RF.csv')
 
-st1.to_csv('/mnt/UltraHD/streamingStates/RF/'+ timestr+"_RF.csv")
+st1.to_csv('/mnt/UltraHD/streamingStates/RF/'+ timestr+"RF.csv")
 
 
 

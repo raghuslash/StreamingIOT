@@ -22,6 +22,7 @@ do
 	cd ..
 	sh get_2.sh $batch_size
 	index=`cat index | sed s/helloworld/streamingevents/`
+	rfindex=`cat index | sed s/helloworld/streamingstates/`
 	echo "INDEX - $index"
 	mapindex=`cat index | sed s/helloworld/mapping/`
 	echo "MAPPING INDEX - $mapindex"
@@ -74,7 +75,7 @@ do
         	echo Already exists.
 	else
         	echo Pushing Reflow Oven states to elasticsearch.
-		python3 csv_upload.py "/mnt/UltraHD/streamingStates/RF/$rffname" $index
+		python3 csv_upload.py "/mnt/UltraHD/streamingStates/RF/$rffname" $rfindex
 		#rffname=$(ls -t | head -n1)
 	fi
 	rflastbatch=$rfthisbatch
