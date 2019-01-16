@@ -36,7 +36,7 @@ except:
 raw_pp.dropna(axis=0, inplace=True)
 raw_pp.sort_values(by=['timestamp'], inplace=True)
 raw_pp.reset_index(inplace=True)
-raw_pp['timestamp'] =  pd.to_datetime(raw_pp['timestamp'])
+#raw_pp['timestamp'] =  pd.to_datetime(raw_pp['timestamp'])
 
 raw_pp_current.dropna(axis=0, inplace=True)
 raw_pp_current.sort_values(by=['timestamp'])
@@ -77,9 +77,11 @@ for x, row in working_times_raw_df.iterrows():
 
 working_times_df=working_times_raw_df[working_times_raw_df.working_time>30]
 working_times_df['event']=1
-working_times_df['energy'] = working_times_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) & 
+working_times_df['energy'] = working_times_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) &
                                                             (x.start_time <= raw_pp_current.timestamp),
                                                             ['total_current']].sum()*230, axis=1)
+
+
 working_times_df.index=working_times_df.timestamp
 working_times_df.drop('timestamp', axis=1, inplace=True)
 working_times_df.drop('sample_number', axis=1, inplace=True)

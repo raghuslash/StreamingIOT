@@ -45,7 +45,7 @@ do
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/screenprinter_plus_vaf.csv
 
         cd /home/richard/Desktop/iiotstream/streaming/LD
-        python3 state Gen.py /home/richard/Desktop/iiotstream/tools/data/loader.csv
+        python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/loader.csv
         
 	#cd /home/richard/Desktop/iiotstream/streaming/MAPPING
         #python3 mapldsp.py 

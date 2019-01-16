@@ -1,544 +1,1626 @@
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:01.336838","state":null,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:08.056781","state":null,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:02.431993","state":null,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:09.151738","state":null,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:03.536186","state":null,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:10.241976","state":null,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:04.642093","state":null,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:11.345267","state":null,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:05.762499","state":null,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:12.448394","state":null,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:06.862773","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:13.552871","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:07.970168","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:14.658117","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:09.073800","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:15.777363","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:10.176173","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:16.879806","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:11.281715","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:17.987000","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:12.382882","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:19.089214","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:13.488849","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:20.192342","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:14.598224","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:21.295914","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:15.696231","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:22.398810","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:16.815699","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:23.521353","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:17.917801","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:24.625058","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:19.022128","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:25.733001","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:20.134102","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:26.832129","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:21.231242","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:27.935684","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:22.330215","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:29.039382","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:23.423286","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:30.143303","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:24.527606","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:31.246311","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:25.631212","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:32.351194","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:26.732768","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:33.453647","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:27.836779","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:34.572691","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:28.942944","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:35.680513","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:30.061933","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:36.783197","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:31.166710","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:37.886772","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:32.268668","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:38.986793","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:33.373069","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:40.093012","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:34.475589","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:41.198157","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:35.580852","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:42.318161","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:36.684025","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:43.421077","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:37.793389","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:44.530672","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:38.891152","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:45.628318","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:39.996368","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:46.732503","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:41.114548","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:47.833937","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:42.220063","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:48.937143","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:43.322610","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:50.041536","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:44.426163","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:51.147744","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:45.529701","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:52.250946","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:46.633672","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:53.353846","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:47.735422","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:54.459513","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:48.829033","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:55.563740","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:49.927976","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:56.666199","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:51.031986","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:57.785683","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:52.143405","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:58.891481","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:53.238681","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:38:59.994180","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:54.345395","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:01.095017","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:55.448108","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:02.188958","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:56.555995","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:03.287078","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:57.657794","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:04.393548","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:58.759658","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:05.497612","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:12:59.865619","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:06.601661","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:00.967596","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:07.721696","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:02.070865","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:08.839717","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:03.173359","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:09.943537","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:04.279606","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:11.049026","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:05.383208","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:12.151318","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:06.487108","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:13.271188","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:07.607719","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:14.376273","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:08.710773","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:15.495074","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:09.814937","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:16.598977","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:10.915092","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:17.703021","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:12.007378","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:18.822982","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:13.109440","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:19.926857","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:14.221032","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:21.035249","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:15.311791","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:22.134182","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:16.405104","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:23.236441","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:17.508711","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:24.343440","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:18.613819","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:25.446618","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:19.714023","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:26.566314","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:20.804894","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:27.670196","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:21.908702","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:28.774106","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:23.028683","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:29.875575","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:24.132127","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:30.998094","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:25.237203","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:32.100698","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:26.337092","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:33.220439","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:27.443432","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:34.338772","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:28.546797","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:35.441685","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:29.652279","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:36.549662","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:30.755521","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:37.651755","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:31.857909","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:38.776218","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:32.968725","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:39.875134","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:34.067215","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:40.994213","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:35.170904","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:42.099395","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:36.274015","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:43.216244","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:37.375093","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:44.323595","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:38.480865","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:45.421524","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:39.584035","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:46.514821","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:40.688984","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:47.619399","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:41.793080","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:48.737335","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:42.895169","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:49.841793","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:44.017396","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:50.946117","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:45.121709","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:52.049106","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:46.222248","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:53.150782","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:47.328977","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:54.270817","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:48.431008","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:55.374829","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:49.537652","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:56.477948","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:50.640051","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:57.590213","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:51.759871","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:58.693158","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:52.863134","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:39:59.795207","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:53.966957","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:00.896194","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:55.070864","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:02.012444","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:56.175266","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:03.102762","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:57.278710","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:04.222615","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:58.382463","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:05.327138","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:13:59.484024","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:06.430613","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:00.591101","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:07.550398","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:01.689552","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:08.654207","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:02.782418","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:09.751248","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:03.886292","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:10.843860","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:04.986654","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:11.949583","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:06.093558","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:13.051309","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:07.197784","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:14.155510","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:08.316215","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:15.267299","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:09.425216","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:16.365703","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:10.524063","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:17.463056","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:11.627959","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:18.557213","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:12.729433","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:19.659513","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:13.835498","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:20.780152","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:14.937423","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:21.884910","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:16.058868","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:22.985528","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:17.163696","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:24.091645","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:18.267630","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:25.195551","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:19.371732","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:26.315018","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:20.472769","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:27.418799","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:21.579155","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:28.521624","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:22.682727","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:29.627575","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:23.786759","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:30.731378","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:24.887626","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:31.832739","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:26.007579","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:32.938753","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:27.120566","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:34.047055","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:28.216712","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:35.147026","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:29.321228","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:36.248652","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:30.424654","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:37.352616","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:31.528775","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:38.470059","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:32.631809","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:39.577065","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:33.736901","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:40.679029","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:34.838927","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:41.782233","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:35.942387","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:42.888468","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:37.062746","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:43.992464","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:38.168103","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:45.096130","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:39.272165","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:46.200772","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:40.374492","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:47.320624","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:41.478382","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:48.422757","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:42.582534","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:49.542026","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:43.686329","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:50.647735","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:44.806640","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:51.760872","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:45.914896","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:52.855552","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:47.012255","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:53.972628","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:48.117534","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:55.078383","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:49.219626","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:56.182231","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:50.323562","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:57.283023","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:51.429591","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:58.389819","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:52.534584","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:40:59.493827","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:53.635476","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:00.595591","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:54.737978","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:01.697627","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:55.860261","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:02.790962","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:56.962938","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:03.896068","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:58.082111","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:04.989589","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:14:59.185072","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:06.084240","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:00.307483","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:07.185181","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:01.414670","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:08.293617","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:02.515351","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:09.396922","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:03.630824","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:10.505881","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:04.722777","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:11.603179","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:05.830218","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:12.707020","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:06.928558","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:13.810980","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:08.032404","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:14.915183","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:09.138497","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:16.034869","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:10.256477","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:17.138379","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:11.376688","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:18.242875","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:12.475171","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:19.346784","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:13.568159","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:20.450154","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:14.673191","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:21.554945","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:15.777759","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:22.656508","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:16.880738","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:23.760233","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:17.982112","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:24.864382","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:19.086779","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:25.969735","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:20.192080","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:27.069544","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:21.310023","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:28.167276","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:22.421767","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:29.280233","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:23.532500","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:30.384374","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:24.638013","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:31.502664","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:25.758015","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:32.606186","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:26.863865","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:33.711488","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:27.967622","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:34.831554","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:29.071427","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:35.934268","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:30.175236","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:37.039583","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:31.278261","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:38.143806","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:32.380417","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:39.248161","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:33.485392","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:40.350046","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:34.589581","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:41.456415","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:35.693098","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:42.557764","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:36.813083","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:43.660407","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:37.917094","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:44.781787","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:39.019879","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:45.885567","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:40.129920","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:46.993937","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:41.226015","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:48.093090","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:42.332665","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:49.197793","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:43.437103","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:50.300691","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:44.554225","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:51.403024","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:45.660023","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:52.504131","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:46.780178","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:53.597121","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:47.883516","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:54.700948","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:48.983885","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:55.801725","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:50.104395","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:56.913375","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:51.209203","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:58.027016","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:52.312660","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:41:59.131815","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:53.418370","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:00.235076","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:54.522354","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:01.337744","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:55.626926","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:02.442635","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:56.728524","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:03.546659","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:57.832118","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:04.654817","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:15:58.942419","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:05.754181","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:00.056957","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:06.854862","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:01.160038","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:07.944099","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:02.265533","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:09.048731","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:03.365888","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:10.147744","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:04.472341","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:11.244370","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:05.576560","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:12.345971","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:06.678532","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:13.453740","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:07.780164","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:14.569361","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:08.871408","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:15.671443","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:09.976490","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:16.774397","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:11.075934","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:17.879938","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:12.170858","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:18.984101","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:13.268906","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:20.083713","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:14.374043","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:21.174028","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:15.479233","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:22.294941","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:16.588158","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:23.403653","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:17.681375","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:24.504060","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:18.777630","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:25.607542","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:19.877603","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:26.711316","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:20.981890","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:27.817583","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:22.085283","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:28.916752","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:23.189199","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:30.019751","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:24.307187","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:31.126495","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:25.413278","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:32.228558","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:26.516838","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:33.329901","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:27.619721","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:34.422427","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:28.721952","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:35.523320","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:29.832492","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:36.627035","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:30.932193","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:37.746370","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:32.049008","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:38.851788","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:33.155876","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:39.955955","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:34.259577","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:41.080869","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:35.368777","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:42.180746","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:36.472405","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:43.300542","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:37.570274","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:44.404616","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:38.673885","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:45.529500","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:39.776325","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:46.628441","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:40.881590","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:47.731338","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:41.985706","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:48.833183","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:43.106394","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:49.936930","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:44.209548","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:51.042531","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:45.311997","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:52.146293","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:46.415693","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:53.249867","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:47.524004","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:54.354313","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:48.625548","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:55.457720","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:49.732629","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:56.577432","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:50.830676","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:57.680082","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:51.937183","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:58.791194","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:53.044657","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:42:59.889700","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:54.143762","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:43:00.991987","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:55.262914","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:43:02.097220","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:56.367488","state":1.0,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:43:03.201320","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:57.470717","state":null,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:43:04.320954","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:58.572838","state":null,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:43:05.421981","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:16:59.678613","state":null,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:43:06.525739","state":1.0,"device":"reflowoven"}
 { "index":{} }
-{"timestamp":"2019-01-16T12:17:00.781784","state":null,"device":"reflowoven"}
+{"timestamp":"2019-01-16T12:43:07.631150","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:08.733115","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:09.838770","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:10.940604","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:12.045373","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:13.150668","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:14.252833","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:15.357375","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:16.462790","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:17.578971","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:18.684152","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:19.790571","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:20.894194","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:21.997236","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:23.101000","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:24.204610","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:25.324183","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:26.427982","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:27.548421","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:28.652613","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:29.757620","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:30.859576","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:31.964378","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:33.067833","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:34.170135","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:35.280569","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:36.377870","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:37.497013","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:38.604613","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:39.706093","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:40.826018","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:41.929073","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:43.033519","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:44.134330","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:45.238514","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:46.346082","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:47.446841","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:48.553537","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:49.656996","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:50.777047","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:51.878885","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:53.000270","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:54.106530","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:55.223113","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:56.326926","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:57.428583","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:58.548250","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:43:59.652120","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:00.772758","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:01.878304","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:02.980905","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:04.086674","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:05.190592","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:06.294275","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:07.396381","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:08.502129","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:09.605444","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:10.709009","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:11.832352","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:12.932061","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:14.035791","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:15.138005","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:16.243556","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:17.347454","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:18.451193","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:19.569575","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:20.677384","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:21.779688","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:22.883198","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:23.987383","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:25.088047","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:26.194928","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:27.297467","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:28.401978","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:29.503175","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:30.614001","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:31.712917","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:32.816542","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:33.920306","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:35.024347","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:36.133542","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:37.232327","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:38.330823","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:39.422572","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:40.524880","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:41.633166","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:42.733776","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:43.837372","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:44.942903","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:46.043828","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:47.150152","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:48.275986","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:49.372112","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:50.492311","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:51.597411","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:52.702071","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:53.803759","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:54.908225","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:56.027458","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:57.140519","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:58.235729","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:44:59.340755","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:00.444375","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:01.548118","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:02.649591","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:03.769209","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:04.874853","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:05.978885","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:07.087651","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:08.187477","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:09.291257","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:10.395663","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:11.497827","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:12.601206","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:13.720956","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:14.842108","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:15.944210","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:17.048784","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:18.151284","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:19.272663","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:20.375048","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:21.480395","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:22.584193","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:23.687713","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:24.797782","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:25.895976","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:27.000617","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:28.101107","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:29.221509","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:30.327672","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:31.429936","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:32.534031","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:33.637850","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:34.742199","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:35.845898","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:36.949729","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:38.069521","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:39.173306","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:40.290763","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:41.397792","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:42.496083","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:43.594456","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:44.693230","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:45.797185","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:46.898452","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:48.020348","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:49.125067","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:50.225653","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:51.347203","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:52.451174","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:53.570700","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:54.674550","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:55.778339","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:56.882138","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:57.986947","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:45:59.090791","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:00.189180","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:01.286811","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:02.384538","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:03.490220","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:04.592148","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:05.696245","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:06.801299","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:07.904198","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:09.019202","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:10.111277","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:11.215867","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:12.320669","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:13.420852","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:14.542356","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:15.645603","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:16.768130","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:17.869738","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:18.975746","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:20.084030","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:21.182174","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:22.287290","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:23.387449","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:24.491274","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:25.597605","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:26.701117","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:27.803630","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:28.908434","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:30.012470","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:31.117332","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:32.219415","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:33.320660","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:34.412678","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:35.517066","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:36.619715","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:37.729237","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:38.827203","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:39.931148","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:41.033397","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:42.138498","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:43.242379","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:44.345702","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:45.450038","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:46.570276","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:47.674618","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:48.794036","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:49.898220","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:51.017434","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:52.119721","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:53.222229","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:54.327389","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:55.432131","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:56.541237","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:57.639899","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:58.740939","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:46:59.847786","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:00.967598","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:02.086043","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:03.190131","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:04.295170","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:05.399430","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:06.518533","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:07.623598","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:08.726634","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:09.828911","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:10.932399","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:12.037132","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:13.141267","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:14.250304","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:15.346871","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:16.468409","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:17.588498","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:18.691981","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:19.796719","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:20.902458","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:22.019864","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:23.122569","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:24.226975","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:25.331880","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:26.435618","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:27.536391","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:28.642449","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:29.746187","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:30.849540","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:31.969060","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:33.083331","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:34.177535","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:35.297057","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:36.402228","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:37.521860","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:38.626147","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:39.729234","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:40.841299","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:41.939583","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:43.039097","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:44.143527","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:45.244513","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:46.351602","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:47.470992","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:48.572620","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:49.675060","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:50.773367","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:51.873132","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:52.991205","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:54.094928","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:55.199198","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:56.302283","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:57.406775","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:58.525184","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:47:59.629541","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:00.731102","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:01.835031","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:02.943338","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:04.042800","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:05.147921","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:06.267773","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:07.372496","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:08.490412","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:09.602808","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:10.696937","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:11.803802","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:12.906731","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:14.011271","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:15.115252","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:16.219199","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:17.322131","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:18.423201","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:19.529584","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:20.633178","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:21.737080","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:22.841131","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:23.941936","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:25.042180","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:26.137383","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:27.246190","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:28.343403","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:29.462736","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:30.566967","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:31.670435","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:32.792113","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:33.894792","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:35.014284","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:36.118786","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:37.237925","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:38.342625","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:39.443599","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:40.548073","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:41.652961","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:42.758655","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:43.859928","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:44.964308","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:46.090561","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:47.189600","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:48.293483","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:49.396667","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:50.499960","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:51.604594","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:52.722130","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:53.826957","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:54.931602","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:56.033467","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:57.139016","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:58.242309","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:48:59.348146","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:00.464284","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:01.571012","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:02.673336","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:03.784532","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:04.882553","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:05.986310","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:07.089991","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:08.190153","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:09.293886","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:10.400292","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:11.520567","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:12.624487","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:13.725407","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:14.831169","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:15.936993","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:17.038995","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:18.141280","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:19.262790","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:20.364371","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:21.474331","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:22.582605","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:23.678279","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:24.782614","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:25.886270","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:26.987385","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:28.092402","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:29.213620","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:30.331529","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:31.435225","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:32.540424","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:33.645911","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:34.765243","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:35.869447","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:36.973240","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:38.073049","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:39.163793","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:40.283606","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:41.393886","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:42.499629","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:43.593819","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:44.714725","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:45.832844","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:46.939466","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:48.040434","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:49.144240","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:50.250880","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:51.353141","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:52.475013","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:53.578784","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:54.679589","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:55.785536","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:56.886333","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:57.992480","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:49:59.100307","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:00.216361","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:01.317413","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:02.421993","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:03.529002","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:04.630557","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:05.736284","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:06.838397","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:07.943391","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:09.063734","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:10.167815","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:11.270425","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:12.371963","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:13.477853","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:14.582076","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:15.682819","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:16.792581","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:17.900106","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:19.012619","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:20.118437","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:21.237122","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:22.341530","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:23.460996","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:24.563813","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:25.672315","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:26.772754","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:27.875545","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:28.977658","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:30.081455","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:31.187183","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:32.288943","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:33.392778","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:34.512659","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:35.618064","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:36.743574","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:37.842541","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:38.941727","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:40.066500","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:41.166136","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:42.255950","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:43.360194","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:44.477427","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:45.577977","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:46.672940","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:47.773842","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:48.882784","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:49.981620","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:51.086924","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:52.191608","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:53.295785","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:54.405312","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:55.503678","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:56.607691","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:57.711281","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:58.811755","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:50:59.917152","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:01.022221","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:02.125743","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:03.227609","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:04.333283","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:05.438063","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:06.537641","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:07.629880","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:08.731717","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:09.836967","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:10.939506","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:12.060716","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:13.170946","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:14.279644","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:15.372199","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:16.492175","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:17.595054","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:18.714583","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:19.817161","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:20.922760","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:22.023875","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:23.129580","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:24.232150","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:25.338538","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:26.440419","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:27.543543","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:28.647884","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:29.766907","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:30.873267","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:31.981687","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:33.081938","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:34.184672","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:35.285033","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:36.392591","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:37.495931","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:38.598042","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:39.700971","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:40.807123","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:41.911681","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:43.011367","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:44.103273","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:45.208616","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:46.310488","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:47.411815","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:48.532979","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:49.658237","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:50.757521","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:51.860764","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:52.978996","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:54.084749","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:55.187208","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:56.290875","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:57.396287","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:58.516435","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:51:59.618323","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:00.738505","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:01.842507","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:02.963239","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:04.070788","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:05.177696","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:06.271929","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:07.378998","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:08.486831","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:09.586211","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:10.689669","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:11.793618","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:12.897884","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:14.017610","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:15.122778","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:16.224213","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:17.329363","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:18.433217","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:19.537549","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:20.639452","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:21.743301","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:22.846252","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:23.951800","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:25.053791","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:26.164288","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:27.262022","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:28.367034","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:29.470728","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:30.575761","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:31.677332","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:32.782839","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:33.886879","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:34.989868","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:36.092916","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:37.195909","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:38.302006","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:39.405034","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:40.507548","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:41.612635","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:42.737989","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:43.836030","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:44.944969","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:46.041825","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:47.148332","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:48.250814","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:49.356137","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:50.460355","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:51.562038","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:52.665878","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:53.771191","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:54.875629","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:55.976809","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:57.079852","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:58.185930","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:52:59.289509","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:53:00.390949","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:53:01.513231","state":1.0,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:53:02.617190","state":null,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:53:03.746255","state":null,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:53:04.841873","state":null,"device":"reflowoven"}
+{ "index":{} }
+{"timestamp":"2019-01-16T12:53:05.959718","state":null,"device":"reflowoven"}
