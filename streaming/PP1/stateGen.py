@@ -69,27 +69,50 @@ working_times_raw=scipy.signal.find_peaks(test_pp.boards, distance=40*72, width=
 working_times_raw_df=pd.DataFrame({"sample_number":working_times_raw[0], "working_time":working_times_raw[1]['widths']/72})
 
 
+test_pp['boards']=test_pp['boards']*-1
+idle_times_raw=scipy.signal.find_peaks(test_pp.boards, width=1)
+idle_times_raw_df=pd.DataFrame({"sample_number":idle_times_raw[0], "working_time":idle_times_raw[1]['widths']/72})
+test_pp['boards']=test_pp['boards']*-1
+
+
+
 for x, row in working_times_raw_df.iterrows():
     working_times_raw_df.ix[x,'start_time']=test_pp.iloc[int(working_times_raw[1]['left_ips'][x])].timestamp
     working_times_raw_df.ix[x,'end_time']=test_pp.iloc[int(working_times_raw[1]['right_ips'][x])].timestamp
     working_times_raw_df.ix[x,'timestamp']=test_pp.iloc[int(working_times_raw[0][x])].timestamp
 
+for x, row in idle_times_raw_df.iterrows():
+    idle_times_raw_df.ix[x,'start_time']=test_pp.iloc[int(idle_times_raw[1]['left_ips'][x])].timestamp
+    idle_times_raw_df.ix[x,'end_time']=test_pp.iloc[int(idle_times_raw[1]['right_ips'][x])].timestamp
+    idle_times_raw_df.ix[x,'timestamp']=test_pp.iloc[int(idle_times_raw[0][x])].timestamp
+
+
+
 working_times_df=working_times_raw_df[working_times_raw_df.working_time>30]
 working_times_df['event']=1
-working_times_df['energy'] = working_times_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) &
+idle_times_raw_df['event']=0
+working_times_df['energy'] = working_times_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) & 
                                                             (x.start_time <= raw_pp_current.timestamp),
-                                                            ['total_current']].sum()*230, axis=1)
-
+                                                            ['total_current']].sum()*230/3600000, axis=1)
+idle_times_raw_df['energy'] = idle_times_raw_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) & 
+                                                            (x.start_time <= raw_pp_current.timestamp),
+                                                            ['total_current']].sum()*230/3600000, axis=1)
 
 working_times_df.index=working_times_df.timestamp
 working_times_df.drop('timestamp', axis=1, inplace=True)
 working_times_df.drop('sample_number', axis=1, inplace=True)
 
+idle_times_raw_df.index=idle_times_raw_df.timestamp
+idle_times_raw_df.drop('timestamp', axis=1, inplace=True)
+idle_times_raw_df.drop('sample_number', axis=1, inplace=True)
+
+
 # plt.plot(test_pp["timestamp"],test_pp["boards"])
 # plt.plot(raw_pp_current.timestamp, raw_pp_current['total_current'])
 
 PP_events=working_times_df[['event', 'working_time', 'energy']]
-
+idle_times_df=idle_times_raw_df[['event', 'working_time', 'energy']]
+PP_events=PP_events.append(idle_times_df)
 PP_events['device']='pickandplace1'
 print(PP_events)
 

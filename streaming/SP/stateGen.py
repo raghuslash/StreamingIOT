@@ -67,7 +67,7 @@ test_sp['sum']=pd.Series.to_frame(test_sp['data.A1'].rolling(12, center=True).su
 # plt.plot(test_sp['timestamp'], test_sp['data.A1']*10)
 
 # In[9]:
-
+test_sp['idle']=0
 sptimethresh=12
 printing_delays_raw=scipy.signal.find_peaks(test_sp['sum'], height=(24, 30), distance=sptimethresh, width=1)
 printing_delays_raw_df=pd.DataFrame({"sample_number":printing_delays_raw[0], "working_time":printing_delays_raw[1]['widths']})
@@ -75,21 +75,38 @@ cleaning_delays_raw=scipy.signal.find_peaks(test_sp['sum'], height=60, distance=
 cleaning_delays_raw_df=pd.DataFrame({"sample_number":cleaning_delays_raw[0], "working_time":cleaning_delays_raw[1]['widths']})
 
 # In[10]:
+for index, i in enumerate(printing_delays_raw[0]):
+    test_sp.ix[int(printing_delays_raw[1]['left_ips'][index]) : int(printing_delays_raw[1]['right_ips'][index]), 'idle']=2
 
+for index, i in enumerate(cleaning_delays_raw[0]):
+    test_sp.ix[int(cleaning_delays_raw[1]['left_ips'][index]) : int(cleaning_delays_raw[1]['right_ips'][index]), 'idle']=2
+       
+
+
+idle_delays_raw=scipy.signal.find_peaks(test_sp['idle'], height=.5, width=1)
+idle_delays_raw_df=pd.DataFrame({"sample_number":idle_delays_raw[0], "working_time":idle_delays_raw[1]['widths']})
 
 SP_events=pd.DataFrame({"timestamp":test_sp.iloc[printing_delays_raw_df.sample_number].timestamp, "event":1, "working_time":printing_delays_raw_df.working_time.tolist()})
 cleanings=pd.DataFrame({"timestamp":test_sp.iloc[cleaning_delays_raw_df.sample_number].timestamp, "event":2, "working_time":cleaning_delays_raw_df.working_time.tolist()})
 SP_events.reset_index(inplace=True)
 cleanings.reset_index(inplace=True)
 
+idles=pd.DataFrame({"timestamp":test_sp.iloc[idle_delays_raw_df.sample_number].timestamp, "event":0, "working_time":idle_delays_raw_df.working_time.tolist()})
+idles.reset_index(inplace=True)
 
 for x, row in SP_events.iterrows():
-    SP_events.ix[x,'energy']=test_sp.ix[int(printing_delays_raw[1]['left_ips'][x]):int(printing_delays_raw[1]['right_ips'][x]), 'data.A1'].sum()*230
+    SP_events.ix[x,'energy']=test_sp.ix[int(printing_delays_raw[1]['left_ips'][x]):int(printing_delays_raw[1]['right_ips'][x]), 'data.A1'].sum()*230/3600000
 
 # In[11]:
 
 for x, row in cleanings.iterrows():
-    cleanings.ix[x,'energy']=test_sp.ix[int(cleaning_delays_raw[1]['left_ips'][x]):int(cleaning_delays_raw[1]['right_ips'][x]), 'data.A1'].sum()*230
+    cleanings.ix[x,'energy']=test_sp.ix[int(cleaning_delays_raw[1]['left_ips'][x]):int(cleaning_delays_raw[1]['right_ips'][x]), 'data.A1'].sum()*230/3600000
+
+
+
+for x, row in idles.iterrows():
+    idles.ix[x,'energy']=test_sp.ix[int(idle_delays_raw[1]['left_ips'][x]):int(idle_delays_raw[1]['right_ips'][x]), 'data.A1'].sum()*230/3600000
+
 
 # In[12]:
 
@@ -101,7 +118,15 @@ cleanings.index=cleanings.timestamp
 cleanings.drop('timestamp', axis=1, inplace=True)
 cleanings.drop('index', axis=1, inplace=True)
 
+
+idles.index=idles.timestamp
+idles.drop('timestamp', axis=1, inplace=True)
+idles.drop('index', axis=1, inplace=True)
+
+
+
 SP_events=SP_events.append(cleanings)
+SP_events=SP_events.append(idles)
 
 
 # In[15]:
