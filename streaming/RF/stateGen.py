@@ -83,22 +83,48 @@ for x, row in idle_times_df.iterrows():
     idle_times_df.ix[x,'timestamp']=rf_raw.iloc[int(idle_times[0][x])].timestamp
     idle_times_df.ix[x,'state']=rf_raw.iloc[int(idle_times[0][x])].state
 
-
-heating_times_df['energy'] = heating_times_df.apply(lambda x: rf_raw.loc[(rf_raw.timestamp <= x.end_time) & 
-                                                            (x.start_time <= rf_raw.timestamp),
-                                                            ['total_current']].sum()*230/3600000, axis=1)
-maintain_times_df['energy'] = maintain_times_df.apply(lambda x: rf_raw.loc[(rf_raw.timestamp <= x.end_time) & 
-                                                            (x.start_time <= rf_raw.timestamp),
-                                                            ['total_current']].sum()*230/3600000, axis=1)
-idle_times_df['energy'] = idle_times_df.apply(lambda x: rf_raw.loc[(rf_raw.timestamp <= x.end_time) & 
+try:
+	heating_times_df['energy'] = heating_times_df.apply(lambda x: rf_raw.loc[(rf_raw.timestamp <= x.end_time) & 
                                                             (x.start_time <= rf_raw.timestamp),
                                                             ['total_current']].sum()*230/3600000, axis=1)
 
+except:
+	print("No Heating times.")
+	
+	
+try:
+	maintain_times_df['energy'] = maintain_times_df.apply(lambda x: rf_raw.loc[(rf_raw.timestamp <= x.end_time) & 
+                                                            (x.start_time <= rf_raw.timestamp),
+                                                            ['total_current']].sum()*230/3600000, axis=1)
 
-RF_states=heating_times_df[['timestamp', 'state', 'working_time', 'energy']]
-RF_states=RF_states.append(maintain_times_df[['timestamp', 'state', 'working_time', 'energy']])
-RF_states=RF_states.append(idle_times_df[['timestamp', 'state', 'working_time', 'energy']])
+except:
+	print('No Maintain times')
+	
+try:	
+	idle_times_df['energy'] = idle_times_df.apply(lambda x: rf_raw.loc[(rf_raw.timestamp <= x.end_time) & 
+                                                            (x.start_time <= rf_raw.timestamp),
+                                                            ['total_current']].sum()*230/3600000, axis=1)
 
+except:
+	print('No off times')
+
+
+
+RF_states=pd.DataFrame()
+
+
+try:
+	RF_states=RF_states.append(heating_times_df[['timestamp','state', 'working_time', 'energy']])
+except:
+	print()
+try:
+	RF_states=RF_states.append(maintain_times_df[['timestamp','state', 'working_time', 'energy']])
+except:
+	print()
+try:
+	RF_states=RF_states.append(idle_times_df[['timestamp','state', 'working_time', 'energy']])
+except:
+	print()
 
 
 
