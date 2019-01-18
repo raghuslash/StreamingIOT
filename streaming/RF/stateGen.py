@@ -1,18 +1,12 @@
 import pandas as pd
-
 import numpy as np
-
 import matplotlib.pyplot as plt
-
 from matplotlib import style
-
 import matplotlib.dates as mdates
-
 import os
-
 import sys
-
 import time
+import scipy.signal
 
 
 
@@ -34,81 +28,84 @@ if not os.path.isfile(rffile):
 
 try:
 
-	dfp = pd.read_csv(rffile, usecols =['timestamp', 'data.A1', 'data.A2', 'data.A3'])
+	rf_raw=pd.read_csv(rffile, usecols =['timestamp', 'data.A1', 'data.A2', 'data.A3'])
 
 except:
 
 	print("Invalid file!")
 
 
-dfp.dropna(inplace=True)
-# dfp.dropna(subset = ['data.A1', 'data.A2', 'data.A3'])
+rf_raw.dropna(inplace=True, axis=0)
+rf_raw.sort_values(by=['timestamp'], inplace=True)
+rf_raw.reset_index(inplace=True)
 
-pattern="%Y-%m-%dT%H:%M:%S.%f"
+rf_raw.index=rf_raw.timestamp
 
-# dfp['timestamp'] =  pd.to_datetime(dfp['timestamp'], format=pattern)
-
-
-
-dfp.sort_values('timestamp', inplace = True)
-
-#dfp['timestamp'] = dfp['timestamp'].apply(lambda x: pd.to_datetime(x,format=pattern,box=False)+pd.Timedelta('05:30:00'))
+rf_raw['total_current']=rf_raw['data.A1']+rf_raw['data.A2']+rf_raw['data.A3']
+rf_raw['rolling_mean_p1']=pd.Series.to_frame(rf_raw['data.A1'].rolling(10, center=True).mean())
+rf_raw['state']=0
 
 
+rf_raw['state'][rf_raw['rolling_mean_p1']<=1.5]=0
+rf_raw['state'][rf_raw['rolling_mean_p1']>= 35]=2
+rf_raw['state'][(rf_raw['rolling_mean_p1']>1.5) & (rf_raw['rolling_mean_p1']<=35)]=1
+
+rf_raw.ix[0, 'state']=(rf_raw.ix[0, 'state']+1)%3
+rf_raw.ix[-1, 'state']=(rf_raw.ix[0, 'state']+1)%3
+
+heating_times=scipy.signal.find_peaks(rf_raw.state, height=1.5, width=1)
+heating_times_df=pd.DataFrame({"sample_number":heating_times[0], "working_time":heating_times[1]['widths']})
+
+idle_temp=rf_raw[['state']]*-1
+idle_times=scipy.signal.find_peaks(idle_temp.state, height=-.5, width=1)
+idle_times_df=pd.DataFrame({"sample_number":idle_times[0], "working_time":idle_times[1]['widths']})
+
+maintain_temp=rf_raw[['state']]
+maintain_temp['state'][rf_raw.state==2]=0
+maintain_times=scipy.signal.find_peaks(maintain_temp.state, height=.5, width=1)
+maintain_times_df=pd.DataFrame({"sample_number":maintain_times[0], "working_time":maintain_times[1]['widths']})
+
+for x, row in heating_times_df.iterrows():
+    heating_times_df.ix[x,'start_time']=rf_raw.iloc[int(heating_times[1]['left_ips'][x])].timestamp
+    heating_times_df.ix[x,'end_time']=rf_raw.iloc[int(heating_times[1]['right_ips'][x])].timestamp
+    heating_times_df.ix[x,'timestamp']=rf_raw.iloc[int(heating_times[0][x])].timestamp
+    heating_times_df.ix[x,'state']=rf_raw.iloc[int(heating_times[0][x])].state
+    
+for x, row in maintain_times_df.iterrows():
+    maintain_times_df.ix[x,'start_time']=rf_raw.iloc[int(maintain_times[1]['left_ips'][x])].timestamp
+    maintain_times_df.ix[x,'end_time']=rf_raw.iloc[int(maintain_times[1]['right_ips'][x])].timestamp
+    maintain_times_df.ix[x,'timestamp']=rf_raw.iloc[int(maintain_times[0][x])].timestamp
+    maintain_times_df.ix[x,'state']=rf_raw.iloc[int(maintain_times[0][x])].state
+    
+for x, row in idle_times_df.iterrows():
+    idle_times_df.ix[x,'start_time']=rf_raw.iloc[int(idle_times[1]['left_ips'][x])].timestamp
+    idle_times_df.ix[x,'end_time']=rf_raw.iloc[int(idle_times[1]['right_ips'][x])].timestamp
+    idle_times_df.ix[x,'timestamp']=rf_raw.iloc[int(idle_times[0][x])].timestamp
+    idle_times_df.ix[x,'state']=rf_raw.iloc[int(idle_times[0][x])].state
+
+
+heating_times_df['energy'] = heating_times_df.apply(lambda x: rf_raw.loc[(rf_raw.timestamp <= x.end_time) & 
+                                                            (x.start_time <= rf_raw.timestamp),
+                                                            ['total_current']].sum()*230/3600000, axis=1)
+maintain_times_df['energy'] = maintain_times_df.apply(lambda x: rf_raw.loc[(rf_raw.timestamp <= x.end_time) & 
+                                                            (x.start_time <= rf_raw.timestamp),
+                                                            ['total_current']].sum()*230/3600000, axis=1)
+idle_times_df['energy'] = idle_times_df.apply(lambda x: rf_raw.loc[(rf_raw.timestamp <= x.end_time) & 
+                                                            (x.start_time <= rf_raw.timestamp),
+                                                            ['total_current']].sum()*230/3600000, axis=1)
+
+
+RF_states=heating_times_df[['timestamp', 'state', 'working_time', 'energy']]
+RF_states=RF_states.append(maintain_times_df[['timestamp', 'state', 'working_time', 'energy']])
+RF_states=RF_states.append(idle_times_df[['timestamp', 'state', 'working_time', 'energy']])
 
 
 
-dfp1=dfp[['timestamp', 'data.A1']]
 
-
-
-# dfp1['timestamp'] = dfp1['timestamp'].apply(lambda x: pd.to_datetime(x,format=pattern,box=False)+pd.Timedelta('05:30:00'))
-
-dfp1.index = dfp1['timestamp']
-
-
-
-
-
-maxcur1 = dfp1['data.A1'].max()
-
-
-
-#pointwise state for phase1 data
-
-statep1 = pd.DataFrame(columns = ['timestamp', 'current', 'state'])
-
-statep1['timestamp'] = dfp1['timestamp']
-
-statep1['current'] = dfp1['data.A1']
-
-statep1['state'] = np.where(dfp1['data.A1'] <= 1.5, 0, statep1['state'])
-
-statep1['state'] = np.where(dfp1['data.A1'] >= .75 * maxcur1, 2, statep1['state'])
-
-statep1['state'] = np.where((dfp1['data.A1'] <= .75 * maxcur1) & (dfp1['data.A1'] > 1.5), 1, statep1['state'])
-
-
-
-# statep1.to_csv('statep1.csv')
-
-# statep2.to_csv('statep2.csv')
-
-# statep3.to_csv('statep3.csv')
-
-'''
-
-directory=rffile[0:-4]
-
-print('Now generating plots for '+directory+'.')
-
-directory+='_plots'
-
-if not os.path.exists(directory):
-
-    os.makedirs(directory)
-
-'''
+RF_states.index=RF_states.timestamp
+RF_states.drop('timestamp', axis=1, inplace=True)
+RF_states['device']='reflowoven'
+print(RF_states)
 
 
 
@@ -121,121 +118,6 @@ if not os.path.exists('/mnt/UltraHD/streamingStates/RF'):
 directory='/mnt/UltraHD/streamingStates/RF'
 
 
-'''
-
-fig, ax = #plt.subplots()
-
-fig.set_size_inches(10,5)
-
-ax.plot(statep1['current'], color='r', label='Phase 1', alpha=0.5)
-
-ax.plot(statep2['current']+60, color='g', label='Phase 2', alpha=0.5)
-
-ax.plot(statep3['current']+120, color='b', label='Phase 3', alpha=0.5)
-
-ax.set_xlabel('Time')
-
-ax.set_ylabel('Current in Amps. (60A offset between phases.)')
-
-#plt.legend()
-
-#plt.title('Raw Current Data Plot')
-
-# #plt.show()
-
-fig.savefig(directory+'/Raw Current Data Plot.png')
-
-'''
-
-
-
-# In[5]:
-
-maxcur1 = statep1['current'].max()
-
-
-
-
-# maxcur = max(maxcur1, maxcur2, maxcur3)
-
-maxcur=62.0
-
-roll_width = 10
-
-cur1 = pd.Series.to_frame(statep1.current.rolling(roll_width, center=True).mean())
-
-st1 = pd.Series.to_frame(statep1.state.rolling(roll_width, center=True).mean())
-
-
-
-# In[6]:
-
-
-
-#blockwise state for phase1 data
-
-st1['state'] = np.where(cur1['current'] <= 1.5, 0, st1['state'])
-
-st1['state'] = np.where(cur1['current'] >= .42 * maxcur, 2, st1['state'])
-
-st1['state'] = np.where((cur1['current'] <= .42 * maxcur) & (cur1['current'] > 1.5), 1, st1['state'])
-
-
-
-
-
-# In[7]:
-
-
-
-pow1 = cur1
-
-pow1['state']=st1['state']
-
-pow1['power'] = 231 * cur1['current']
-
-
-
-#phase 1 staes
-
-#fig, ax1 = #plt.subplots()
-#
-#fig.set_size_inches(10,5)
-#
-#ax1.plot(pow1['current'],color='orange')
-#
-#ax1.xaxis.set_major_locator(mdates.DateFormatter('%H:%M'))
-#
-#ax1.set_xlabel('Time')
-#
-#ax1.set_ylabel('Current in Amps.', color='orange')
-#
-#ax1.set_yticks(np.arange(0, 80, step=10))
-#
-#ax1.tick_params('y', colors='orange')
-#
-#ax2 = ax1.twinx()
-#
-#ax2.plot(pow1['state'], 'r-', color='purple', alpha=0.5)
-#
-#ax2.set_ylabel('State', color='purple')
-#
-#ax2.tick_params('y', colors='purple')
-#
-#ax2.set_yticks(np.arange(0, 3, step=1))
-
-# ax2.set_yticks(np.arange(3), ('Off', 'Maintain', 'Heating'))
-
-#plt.title('Phase 1 States')
-
-# #plt.show()
-
-#plt.savefig('/mnt/UltraHD/streamingStates/RF/RFStates.png')
-
-
-st1['device']='reflowoven'
-
-print(st1)
 
 import time
 
@@ -243,7 +125,7 @@ timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
 
 print("Saving States with file name - ", timestr+'_RF.csv')
 
-st1.to_csv('/mnt/UltraHD/streamingStates/RF/'+ timestr+"_RF.csv")
+RF_states.to_csv('/mnt/UltraHD/streamingStates/RF/'+ timestr+"_RF.csv")
 
 
 
