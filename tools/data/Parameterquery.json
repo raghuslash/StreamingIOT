@@ -1,0 +1,17 @@
+{
+	"query":{
+		"bool":{
+			"must":[
+				{"match":{"device":"loader"}}
+			],
+			"filter":{
+				"range":{
+					"timestamp":{"gte":"now-60m"}
+				}
+			}
+		}
+	},
+	"aggs":{
+		"Avg Loading Time(Loader Delay)":{"avg":{"field":"working_time"}}
+	}
+}

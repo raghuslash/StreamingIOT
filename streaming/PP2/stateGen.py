@@ -61,6 +61,8 @@ test_pp['detections']=pd.Series.to_frame(test_pp.acc_rolling_std.rolling(100, ce
 
 test_pp['boards']=0
 test_pp['boards'][test_pp['detections']>=2]=1
+test_pp.ix[0,'boards']=1
+test_pp.ix[-1,'boards']=1
 
 
 # plt.plot(test_pp["timestamp"],test_pp["boards"])
@@ -91,12 +93,21 @@ for x, row in idle_times_raw_df.iterrows():
 working_times_df=working_times_raw_df[working_times_raw_df.working_time>30]
 working_times_df['event']=1
 idle_times_raw_df['event']=0
-working_times_df['energy'] = working_times_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) & 
+
+try:
+    working_times_df['energy'] = working_times_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) & 
                                                             (x.start_time <= raw_pp_current.timestamp),
                                                             ['total_current']].sum()*230/3600000, axis=1)
-idle_times_raw_df['energy'] = idle_times_raw_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) & 
+except:
+    print("No Working times.")
+
+try:
+    idle_times_raw_df['energy'] = idle_times_raw_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) & 
                                                             (x.start_time <= raw_pp_current.timestamp),
                                                             ['total_current']].sum()*230/3600000, axis=1)
+except:
+    print("No Idle times.")
+
 
 working_times_df.index=working_times_df.timestamp
 working_times_df.drop('timestamp', axis=1, inplace=True)
@@ -110,9 +121,20 @@ idle_times_raw_df.drop('sample_number', axis=1, inplace=True)
 # plt.plot(test_pp["timestamp"],test_pp["boards"])
 # plt.plot(raw_pp_current.timestamp, raw_pp_current['total_current'])
 
-PP_events=working_times_df[['event', 'working_time', 'energy']]
+working_times_df=working_times_df[['event', 'working_time', 'energy']]
 idle_times_df=idle_times_raw_df[['event', 'working_time', 'energy']]
-PP_events=PP_events.append(idle_times_df)
+
+PP_events=pd.DataFrame()
+
+try:
+    PP_events=PP_events.append(working_times_df)
+except:
+    print()
+try:    
+    PP_events=PP_events.append(idle_times_df)
+except:
+    print()
+    
 PP_events['device']='pickandplace2'
 print(PP_events)
 

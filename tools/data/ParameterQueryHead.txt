@@ -1,0 +1,3 @@
+curl -H 'Content-Type: application/json' 
+-XPOST 'localhost:9200/streamingevents*/_search?pretty' 
+-d 

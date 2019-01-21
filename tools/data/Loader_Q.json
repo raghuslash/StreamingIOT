@@ -1,0 +1,1 @@
+{"query":{"bool":{"must":[{"match":{"device":"pickandplace2"}},{"match":{"event":1}}],"filter":{"range":{"timestamp":{"gte":"now-60m"}}}}},"aggs":{"pick_and_place_2.processing_delay":{"avg":{"field":"working_time"}},"pick_and_place_2.processing_energy":{"avg":{"field":"energy"}}}}
