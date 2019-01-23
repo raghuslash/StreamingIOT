@@ -59,7 +59,9 @@ test_sp=test_sp[['data.A1','timestamp']]
 
 # In[7]:
 
-test_sp['sum']=pd.Series.to_frame(test_sp['data.A1'].rolling(12, center=True).sum())
+
+test_sp['sum']=pd.Series.to_frame(test_sp['data.A1'].rolling(6, center=True).sum())
+test_sp['sum_forcleaning']=pd.Series.to_frame(test_sp['data.A1'].rolling(12, center=True).sum())
 # In[8]:
 
 
@@ -69,9 +71,9 @@ test_sp['sum']=pd.Series.to_frame(test_sp['data.A1'].rolling(12, center=True).su
 # In[9]:
 test_sp['idle']=0
 sptimethresh=12
-printing_delays_raw=scipy.signal.find_peaks(test_sp['sum'], height=(24, 30), distance=sptimethresh, width=1)
+printing_delays_raw=scipy.signal.find_peaks(test_sp['sum'], height=(11, 15), distance=sptimethresh, width=1)
 printing_delays_raw_df=pd.DataFrame({"sample_number":printing_delays_raw[0], "working_time":printing_delays_raw[1]['widths']})
-cleaning_delays_raw=scipy.signal.find_peaks(test_sp['sum'], height=60, distance=sptimethresh, width=1)
+cleaning_delays_raw=scipy.signal.find_peaks(test_sp['sum_forcleaning'], height=60, distance=sptimethresh, width=1)
 cleaning_delays_raw_df=pd.DataFrame({"sample_number":cleaning_delays_raw[0], "working_time":cleaning_delays_raw[1]['widths']})
 
 # In[10]:
