@@ -67,7 +67,7 @@ test_pp.ix[-1,'boards']=1
 
 # plt.plot(test_pp["timestamp"],test_pp["boards"])
 
-working_times_raw=scipy.signal.find_peaks(test_pp.boards, distance=40*72, width=1)
+working_times_raw=scipy.signal.find_peaks(test_pp.boards, width=1)
 working_times_raw_df=pd.DataFrame({"sample_number":working_times_raw[0], "working_time":working_times_raw[1]['widths']/72})
 
 
