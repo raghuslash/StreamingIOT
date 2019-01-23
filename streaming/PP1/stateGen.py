@@ -141,9 +141,9 @@ print(PP_events)
 # In[ ]:
 
 timestr = time.strftime("%H-%M")
-print('PP1 working time mode: ', PP_events.working_time.mode().mean())
+print('PP1 working time mode: ', PP_events[PP_events.event==1].working_time.mode().mean())
 parameters=open('/home/richard/Desktop/LiveParameters/PP1parameters.txt','a+')
-parameters.write(timestr +'\tPP1 working time mode: ' + str(PP_events.working_time.mode().mean())+'\n')
+parameters.write(timestr +'\tPP1 working time mode: ' + str(PP_events[PP_events.event==1].working_time.mode().mean())+'\n')
 parameters.close()
 # In[24]:
 
