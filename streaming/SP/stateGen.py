@@ -51,7 +51,7 @@ raw_sp.reset_index(inplace=True)
 # In[5]:
 
 test_sp=raw_sp
-sptimethresh=12
+sptimethresh=6
 
 # In[6]:
 
@@ -69,8 +69,7 @@ test_sp['sum_forcleaning']=pd.Series.to_frame(test_sp['data.A1'].rolling(12, cen
 # plt.plot(test_sp['timestamp'], test_sp['data.A1']*10)
 
 # In[9]:
-test_sp['idle']=0
-sptimethresh=12
+test_sp['idle']=2
 printing_delays_raw=scipy.signal.find_peaks(test_sp['sum'], height=(11, 15), distance=sptimethresh, width=1)
 printing_delays_raw_df=pd.DataFrame({"sample_number":printing_delays_raw[0], "working_time":printing_delays_raw[1]['widths']})
 cleaning_delays_raw=scipy.signal.find_peaks(test_sp['sum_forcleaning'], height=60, distance=sptimethresh, width=1)
@@ -78,10 +77,10 @@ cleaning_delays_raw_df=pd.DataFrame({"sample_number":cleaning_delays_raw[0], "wo
 
 # In[10]:
 for index, i in enumerate(printing_delays_raw[0]):
-    test_sp.ix[int(printing_delays_raw[1]['left_ips'][index]) : int(printing_delays_raw[1]['right_ips'][index]), 'idle']=2
+    test_sp.ix[int(printing_delays_raw[1]['left_ips'][index]) : int(printing_delays_raw[1]['right_ips'][index]), 'idle']=0
 
 for index, i in enumerate(cleaning_delays_raw[0]):
-    test_sp.ix[int(cleaning_delays_raw[1]['left_ips'][index]) : int(cleaning_delays_raw[1]['right_ips'][index]), 'idle']=2
+    test_sp.ix[int(cleaning_delays_raw[1]['left_ips'][index]) : int(cleaning_delays_raw[1]['right_ips'][index]), 'idle']=0
        
 
 
