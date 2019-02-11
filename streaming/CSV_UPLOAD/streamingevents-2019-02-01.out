@@ -1,0 +1,42 @@
+{ "index":{} }
+{"timestamp":"2019-02-01T06:28:33.337638","event":1,"working_time":41.6527777778,"energy":0.0055187222,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:30:55.857199","event":1,"working_time":36.8472222222,"energy":0.0057404167,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:31:54.018694","event":1,"working_time":42.6388888889,"energy":0.0057685278,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:32:58.699509","event":1,"working_time":36.8472222222,"energy":0.0051590278,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:36:12.650916","event":1,"working_time":35.0972222222,"energy":0.0053698611,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:36:53.483337","event":1,"working_time":40.7777777778,"energy":0.0055538611,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:37:42.754618","event":1,"working_time":35.6388888889,"energy":0.0042518056,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:25:50.377371","event":0,"working_time":263.0972222222,"energy":0.0254699444,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:29:42.965903","event":0,"working_time":90.7638888889,"energy":0.0089744722,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:30:34.565141","event":0,"working_time":0.8472222222,"energy":0.000115,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:31:23.454953","event":0,"working_time":17.3333333333,"energy":0.0023012778,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:32:24.939460","event":0,"working_time":17.4722222222,"energy":0.0023805,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:32:37.683398","event":0,"working_time":1.7361111111,"energy":0.0001175556,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:33:28.129305","event":0,"working_time":17.4583333333,"energy":0.0024776111,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:33:41.120096","event":0,"working_time":1.5138888889,"energy":0.0003443611,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:34:04.339852","event":0,"working_time":3.2361111111,"energy":0.0002018889,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:35:01.701031","event":0,"working_time":100.875,"energy":0.0090479444,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:36:30.850394","event":0,"working_time":0.4861111111,"energy":0.0,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:37:16.905809","event":0,"working_time":3.0694444444,"energy":0.0003405278,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:37:22.258566","event":0,"working_time":2.2777777778,"energy":0.0003098611,"device":"pickandplace2"}
+{ "index":{} }
+{"timestamp":"2019-02-01T06:38:13.119011","event":0,"working_time":19.0277777778,"energy":0.0021645556,"device":"pickandplace2"}

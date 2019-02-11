@@ -1,0 +1,44 @@
+{ "index":{} }
+{"timestamp":"2019-01-25T18:15:31.053833","event":1,"working_time":1.5753726767,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:15:56.641931","event":1,"working_time":1.6328602858,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:16:36.835158","event":1,"working_time":1.7889162957,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:19:13.090095","event":1,"working_time":1.8173892602,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:19:39.023468","event":1,"working_time":1.7452753366,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:20:39.126945","event":1,"working_time":1.7701709596,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:21:23.605035","event":1,"working_time":1.6448157655,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:22:03.443707","event":1,"working_time":1.6680453808,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:22:29.498491","event":1,"working_time":1.8182768214,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:22:55.540819","event":1,"working_time":1.7225480586,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:23:20.313549","event":1,"working_time":1.7759162081,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:23:52.377858","event":1,"working_time":1.4476757799,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:25:02.063096","event":1,"working_time":1.6278864748,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:25:41.663889","event":1,"working_time":1.5952239537,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:26:08.365735","event":1,"working_time":1.6783676223,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:26:33.242942","event":1,"working_time":1.6953676473,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:26:59.979546","event":1,"working_time":1.6058577299,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:27:25.720327","event":1,"working_time":2.4015839665,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:28:05.439920","event":1,"working_time":1.5880541867,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:28:31.560481","event":1,"working_time":1.7071361699,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:28:57.467234","event":1,"working_time":1.746748281,"energy":null,"device":"loader"}
+{ "index":{} }
+{"timestamp":"2019-01-25T18:29:37.109331","event":1,"working_time":2.0354267272,"energy":null,"device":"loader"}

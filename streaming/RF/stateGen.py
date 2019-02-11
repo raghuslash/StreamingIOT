@@ -48,7 +48,7 @@ rf_raw['state']=0
 
 rf_raw['state'][rf_raw['rolling_mean_p1']<=1.5]=0
 rf_raw['state'][rf_raw['rolling_mean_p1']>= 35]=2
-rf_raw['state'][(rf_raw['rolling_mean_p1']>1.5) & (rf_raw['rolling_mean_p1']<=35)]=1
+rf_raw['state'][(rf_raw['rolling_mean_p1']>1.5) & (rf_raw['rolling_mean_p1']<35)]=1
 
 rf_raw.ix[0, 'state']=(rf_raw.ix[0, 'state']+1)%3
 rf_raw.ix[-1, 'state']=(rf_raw.ix[0, 'state']+1)%3
@@ -56,7 +56,8 @@ rf_raw.ix[-1, 'state']=(rf_raw.ix[0, 'state']+1)%3
 heating_times=scipy.signal.find_peaks(rf_raw.state, height=1.5, width=1)
 heating_times_df=pd.DataFrame({"sample_number":heating_times[0], "working_time":heating_times[1]['widths']})
 
-idle_temp=rf_raw[['state']]*-1
+#idle_temp=rf_raw[['state']]*-1
+idle_temp['state'][rf_raw.state!=0]=-1
 idle_times=scipy.signal.find_peaks(idle_temp.state, height=-.5, width=1)
 idle_times_df=pd.DataFrame({"sample_number":idle_times[0], "working_time":idle_times[1]['widths']})
 
