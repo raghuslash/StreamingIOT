@@ -1,56 +1,18 @@
 { "index":{} }
-{"timestamp":"2019-02-11T06:24:36.137216","event":1,"working_time":39.1805555556,"energy":0.0111524444,"device":"pickandplace1"}
+{"timestamp":"2019-02-11T09:33:21.487916","event":1,"working_time":63.2222222222,"energy":0.0091335556,"device":"pickandplace2"}
 { "index":{} }
-{"timestamp":"2019-02-11T06:20:01.685804","event":0,"working_time":22.1805555556,"energy":0.00446775,"device":"pickandplace1"}
+{"timestamp":"2019-02-11T09:30:40.214266","event":0,"working_time":164.8055555556,"energy":0.0142759722,"device":"pickandplace2"}
 { "index":{} }
-{"timestamp":"2019-02-11T06:20:29.432433","event":0,"working_time":25.3888888889,"energy":0.0047111667,"device":"pickandplace1"}
+{"timestamp":"2019-02-11T09:32:09.677886","event":0,"working_time":1.9444444444,"energy":0.0001015833,"device":"pickandplace2"}
 { "index":{} }
-{"timestamp":"2019-02-11T06:20:49.083908","event":0,"working_time":7.6944444444,"energy":0.0016566389,"device":"pickandplace1"}
+{"timestamp":"2019-02-11T09:32:16.155331","event":0,"working_time":3.1388888889,"energy":0.0003424444,"device":"pickandplace2"}
 { "index":{} }
-{"timestamp":"2019-02-11T06:21:01.652549","event":0,"working_time":9.75,"energy":0.0016419444,"device":"pickandplace1"}
+{"timestamp":"2019-02-11T09:32:26.282620","event":0,"working_time":3.7222222222,"energy":0.0002421389,"device":"pickandplace2"}
 { "index":{} }
-{"timestamp":"2019-02-11T06:21:12.862951","event":0,"working_time":7.75,"energy":0.0013199444,"device":"pickandplace1"}
+{"timestamp":"2019-02-11T09:32:37.419721","event":0,"working_time":12.5416666667,"energy":0.00092,"device":"pickandplace2"}
 { "index":{} }
-{"timestamp":"2019-02-11T06:21:22.110663","event":0,"working_time":1.875,"energy":0.0006535833,"device":"pickandplace1"}
+{"timestamp":"2019-02-11T09:32:48.958859","event":0,"working_time":2.25,"energy":0.0002280833,"device":"pickandplace2"}
 { "index":{} }
-{"timestamp":"2019-02-11T06:21:27.508252","event":0,"working_time":1.9722222222,"energy":0.0008426944,"device":"pickandplace1"}
+{"timestamp":"2019-02-11T09:34:29.403763","event":0,"working_time":75.3611111111,"energy":0.0064259444,"device":"pickandplace2"}
 { "index":{} }
-{"timestamp":"2019-02-11T06:21:59.736198","event":0,"working_time":53.8194444444,"energy":0.0108221389,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:22:37.731850","event":0,"working_time":19.0972222222,"energy":0.0038090556,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:22:50.068691","event":0,"working_time":0.2638888889,"energy":0.0,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:23:05.408135","event":0,"working_time":15.3333333333,"energy":0.0031644167,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:23:38.861830","event":0,"working_time":48.5,"energy":0.0102068889,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:24:08.318291","event":0,"working_time":6.3055555556,"energy":0.0012924722,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:24:15.575887","event":0,"working_time":2.7777777778,"energy":0.0005647778,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:24:55.676469","event":0,"working_time":0.8055555556,"energy":0.0004996111,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:25:15.455242","event":0,"working_time":35.3333333333,"energy":0.0070629167,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:25:37.123032","event":0,"working_time":6.7361111111,"energy":0.0020725556,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:25:59.579758","event":0,"working_time":29.5,"energy":0.0051852222,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:26:26.225615","event":0,"working_time":20.5555555556,"energy":0.0041253056,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:26:50.973327","event":0,"working_time":25.4305555556,"energy":0.0047450278,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:27:38.076286","event":0,"working_time":52.0,"energy":0.0102746111,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:28:06.871287","event":0,"working_time":0.3611111111,"energy":0.0,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:28:10.067969","event":0,"working_time":2.3611111111,"energy":0.0002836667,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:28:14.537459","event":0,"working_time":1.1111111111,"energy":0.0002708889,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:28:29.704113","event":0,"working_time":23.0694444444,"energy":0.0042300833,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:31:06.065446","event":0,"working_time":287.6944444444,"energy":0.0570431944,"device":"pickandplace1"}
-{ "index":{} }
-{"timestamp":"2019-02-11T06:34:11.466391","event":0,"working_time":75.875,"energy":0.0151953333,"device":"pickandplace1"}
+{"timestamp":"2019-02-11T09:39:46.287716","event":0,"working_time":549.0833333333,"energy":0.0473173889,"device":"pickandplace2"}
