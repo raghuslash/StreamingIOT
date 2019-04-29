@@ -5,6 +5,10 @@ import pandas as pd
 import numpy as np
 import scipy as sp
 
+import os
+import sys
+import time
+
 import csv
 import datetime
 
@@ -25,7 +29,31 @@ import routine_merge_pxmty_algo
 
 #-----------------------------------------------------------
 #Get the data from pp2 csv file
-pp2file = pd.read_csv('csv_folders/helloworld-2019-03-01/pickandplace2.csv')
+# pp2file = pd.read_csv('csv_folders/helloworld-2019-03-01/pickandplace2.csv')
+###ADDITIONS FOR STREAMING STATES###########
+if len(sys.argv) <  2:
+
+        print("No filename passed. Place the CSV file in the same folder.")
+
+        exit(2)
+
+ppfile=sys.argv[1]
+
+if not os.path.isfile(ppfile):
+
+        print("File not found!")
+
+        exit(1)
+
+try:
+    pp2file = pd.read_csv(ppfile)
+    raw_pp_current=pd.read_csv(ppfile, usecols=['timestamp', 'data.A1', 'data.A2', 'data.A3'])
+except:
+        print("Invalid file!")
+        exit(3)
+
+###END OF ADDITIONS FOR STREAMING STATES###########
+
 pp2file.columns = [c.replace('.', '_') for c in pp2file.columns]
 
 #PP2 Proximity sensor data
@@ -50,7 +78,7 @@ filt_sig_pp2 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp2_vibr_file,1,'
 
 #-------------------------------------------------------------------------
 #Raw-acceleration to binary sequene conversion
-filt_sig_pp1 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp1_vibr_file,1,'Y','Y',0.6,1.1)
+filt_sig_pp2 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp2_vibr_file,1,'Y','Y',0.6,1.1)
 
 #Detect PCBs and obtain PCB processing durations
 pcb_data_pp2 = routine_get_pcb_dur.get_pcb_dur(filt_sig_pp2.binry_sig)
@@ -66,9 +94,14 @@ pcb_level_pp2 = routine_get_pcb_level_data.get_pcb_level_data(filt_sig_pp2,pcb_d
 
 #-----------------------------------------------------------------------------------------------------------------------
 #Merging process for PP2 (Single step)
- 
+
 pcb_merge_pp2 = pcb_level_pp2
 mrg_binry_pp2 = filt_sig_pp2.cor_binry_sig
+
+THRESHOLD = 0.95
+HIGH_END  = 1.20
+
+iter_two = 0
 
 PROC_TWO_END_FLAG = 0
 while(PROC_TWO_END_FLAG == 0):
@@ -99,3 +132,95 @@ filt_sig_pp2.to_csv('PP2_Processed_DataFrame.csv')
 pcb_merge_pp2.to_csv('PP2_PCB_Merged_DataFrame.csv')
 pp2_pxend_file.to_csv('PP2_Proximity_Exit_DataFrame.csv')
 #-----------------------------------------------------------------------------
+###ADDITIONS FOR STREAMING STATES###########
+
+raw_pp_current.dropna(axis=0, inplace=True)
+raw_pp_current.sort_values(by=['timestamp'])
+raw_pp_current.reset_index(inplace=True)
+raw_pp_current['total_current']=raw_pp_current['data.A1']+raw_pp_current['data.A2']+raw_pp_current['data.A3']
+raw_pp_current.index=raw_pp_current['timestamp']
+
+working_times_df=pd.DataFrame()
+
+working_times_df['timestamp']=pcb_merge_pp2['arvl_tmstmp']
+working_times_df['working_time']=pcb_merge_pp2['proc_dur']
+working_times_df['event']=1
+try:
+    working_times_df['energy'] = pcb_merge_pp2.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.dptr_tmstmp) & (x.arvl_tmstmp <= raw_pp_current.timestamp), ['total_current']].sum()*230/3600000, axis=1)
+except:
+    print("No working times.")
+
+
+PP_temp_idle=filt_sig_pp2[['timestamp', 'cor_binry_sig']]
+PP_temp_idle['cor_binry_sig']=PP_temp_idle['cor_binry_sig']*-1
+idle_times_raw=sp.signal.find_peaks(PP_temp_idle.cor_binry_sig, width=1)
+idle_times_raw_df=pd.DataFrame({"sample_number":idle_times_raw[0], "working_time":idle_times_raw[1]['widths']/72})
+
+for x, row in idle_times_raw_df.iterrows():
+    idle_times_raw_df.ix[x,'start_time']=PP_temp_idle.iloc[int(idle_times_raw[1]['left_ips'][x])].timestamp
+    idle_times_raw_df.ix[x,'end_time']=PP_temp_idle.iloc[int(idle_times_raw[1]['right_ips'][x])].timestamp
+    idle_times_raw_df.ix[x,'timestamp']=PP_temp_idle.iloc[int(idle_times_raw[0][x])].timestamp
+
+idle_times_raw_df['event']=0
+
+try:
+    idle_times_raw_df['energy'] = idle_times_raw_df.apply(lambda x: raw_pp_current.loc[(raw_pp_current.timestamp <= x.end_time) & 
+                                                            (x.start_time <= raw_pp_current.timestamp),
+                                                            ['total_current']].sum()*230/3600000, axis=1)
+except:
+    print("No idle times.")
+
+working_times_df.index=working_times_df.timestamp
+working_times_df.drop('timestamp', axis=1, inplace=True)
+
+idle_times_raw_df.index=idle_times_raw_df.timestamp
+idle_times_raw_df.drop('timestamp', axis=1, inplace=True)
+idle_times_raw_df.drop('sample_number', axis=1, inplace=True)
+
+working_times_df=working_times_df[['event', 'working_time', 'energy']]
+idle_times_df=idle_times_raw_df[['event', 'working_time', 'energy']]
+
+PP_events=pd.DataFrame()
+
+try:
+    PP_events=PP_events.append(working_times_df)
+except:
+    print()
+try:    
+    PP_events=PP_events.append(idle_times_df)
+except:
+    print()
+
+
+PP_events['device']='pickandplace2'
+print(PP_events)
+
+timestr = time.strftime("%H-%M")
+print('PP2 working time mode: ', PP_events[PP_events.event==1].working_time.mode().mean())
+parameters=open('/home/richard/Desktop/LiveParameters/PP2parameters.txt','a+')
+parameters.write(timestr +'\tPP1 working time mode: ' + str(PP_events[PP_events.event==1].working_time.mode().mean())+'\n')
+parameters.close()
+
+if not os.path.exists('/mnt/UltraHD/streamingStates/PP2/merging'):
+
+    os.makedirs('/mnt/UltraHD/streamingStates/PP2/merging')
+
+# sns.distplot(PP_events.working_time)
+# plt.title('PP1 Working Times Histogram')
+#plt.savefig("/mnt/UltraHD/streamingStates/PP1/PP1boardstimes_hist.png") 
+
+directory='/mnt/UltraHD/streamingStates/PP2'
+
+
+timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
+print("Saving States with file name -", timestr+"_PP2.csv")
+PP_events.to_csv('/mnt/UltraHD/streamingStates/PP2/'+ timestr+"_PP2.csv")
+pcb_merge_pp2.to_csv('/mnt/UltraHD/streamingStates/PP2/merging/'+ timestr+"_merging_PP2.csv")
+
+
+
+# plt.plot(pp1_vibr_file.timestamp, pp1_vibr_file.net_accl)
+# plt.savefig('VibData.png')
+
+
+###END OF ADDITIONS FOR STREAMING STATES###########
