@@ -140,8 +140,8 @@ def rawaccl_to_binryseq(inp_vibr_df,downsample_rate,use_filt_accl_flag,use_quant
         print(h1_df.start[i], ':', h1_df.end[i], '|', h1_df.no_occur[i])
     #end-for
     
-    plt.figure(figsize=(18,6));
-    plt.stem(h1_df.start,h1_df.no_occur); plt.grid();
+    # plt.figure(figsize=(18,6));
+    # plt.stem(h1_df.start,h1_df.no_occur); plt.grid();
     
     #Determine lower threshold
     a = h1_df.query('(start >= 0.2) & (start <= 0.8) & (no_occur > 0)')

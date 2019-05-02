@@ -26,6 +26,7 @@ do
 	echo "INDEX - $index"
 	mapindex=`cat index | sed s/helloworld/mapping/`
 	echo "MAPPING INDEX - $mapindex"
+        mergingindex=`cat index | sed s/helloworld/merging/`
 	#exit
 	 
 	
@@ -139,6 +140,20 @@ do
         fi
         pp1lastbatch=$pp1thisbatch
 
+        cd /mnt/UltraHD/streamingStates/PP1/merging/
+
+        pp1fname=$(ls -t | head -n1)
+        pp1thisbatch=$pp1fname
+
+        cd /home/richard/Desktop/iiotstream/streaming/CSV_UPLOAD
+        if [ "$pp1thisbatch" = "$pp1lastbatch" ]; then
+                echo Already exists.
+        else
+                echo Pushing Pick and Place 1 states to elasticsearch.
+                python3 csv_upload.py "/mnt/UltraHD/streamingStates/PP1/merging/$pp1fname" $mergingindex
+                #pp1fname=$(ls -t | head -n1)
+        fi
+        pp1lastbatch=$pp1thisbatch
 
                 #-------------PP1 states to Database---------------
 
@@ -153,6 +168,21 @@ do
         else
                 echo Pushing Pick and Place 2 states to elasticsearch.
                 python3 csv_upload.py "/mnt/UltraHD/streamingStates/PP2/$pp2fname" $index
+                #pp2fname=$(ls -t | head -n1)
+        fi
+        pp2lastbatch=$pp2thisbatch
+
+                cd /mnt/UltraHD/streamingStates/PP2/merging/
+
+        pp2fname=$(ls -t | head -n1)
+        pp2thisbatch=$pp2fname
+
+        cd /home/richard/Desktop/iiotstream/streaming/CSV_UPLOAD
+        if [ "$pp2thisbatch" = "$pp2lastbatch" ]; then
+                echo Already exists.
+        else
+                echo Pushing Pick and Place 2 states to elasticsearch.
+                python3 csv_upload.py "/mnt/UltraHD/streamingStates/PP2/$pp2fname" $mergingindex
                 #pp2fname=$(ls -t | head -n1)
         fi
         pp2lastbatch=$pp2thisbatch
