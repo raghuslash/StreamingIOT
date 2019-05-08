@@ -148,7 +148,12 @@ def rawaccl_to_binryseq(inp_vibr_df,downsample_rate,use_filt_accl_flag,use_quant
     b = a.sort_values('no_occur',ascending=True)
     b = b.reset_index()
     b = b.iloc[:,1:len(b.columns)]
-    HYS_LOW_THRESH = np.round(b.end[0],2) #Precision 2 places after decimal point 
+    if (len(b) > 0):
+        HYS_LOW_THRESH = np.round(b.end[0],2) #Precision 2 places after decimal point 
+    else:
+        HYS_LOW_THRESH = 0.2
+    #end-if
+    # HYS_LOW_THRESH = np.round(b.end[0],2) #Precision 2 places after decimal point 
     
     print('Hysteresis Thresholds | HYS_LOW_THRESH =', HYS_LOW_THRESH, '| HYS_HIGH_THRESH =', HYS_HIGH_THRESH)
     
