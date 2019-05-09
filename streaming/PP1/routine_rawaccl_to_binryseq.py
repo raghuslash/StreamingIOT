@@ -149,9 +149,13 @@ def rawaccl_to_binryseq(inp_vibr_df,downsample_rate,use_filt_accl_flag,use_quant
     b = b.reset_index()
     b = b.iloc[:,1:len(b.columns)]
     if (len(b) > 0):
-        HYS_LOW_THRESH = np.round(b.end[0],2) #Precision 2 places after decimal point 
+        if (HYS_LOW_THRESH > 0.2):
+            HYS_LOW_THRESH = np.round(b.end[0],2) #Precision 2 places after decimal point 
+        else:
+            HYS_LOW_THRESH = 0.2  #Set to default low level
+        #end-if    
     else:
-        HYS_LOW_THRESH = 0.2
+        HYS_LOW_THRESH = 0.2      #Set to default low level
     #end-if
     # HYS_LOW_THRESH = np.round(b.end[0],2) #Precision 2 places after decimal point 
     

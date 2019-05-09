@@ -75,7 +75,7 @@ print('Size of pp1_vibr_file  =', pp1_vibr_file.shape)
 
 #-------------------------------------------------------------------------
 #Raw-acceleration to binary sequene conversion
-filt_sig_pp1 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp1_vibr_file,1,'Y','Y',0.6,1.1)
+# filt_sig_pp1 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp1_vibr_file,1,'Y','Y',0.6,1.1)
 
 #Detect PCBs and obtain PCB processing durations
 pcb_data_pp1 = routine_get_pcb_dur.get_pcb_dur(filt_sig_pp1.binry_sig)
