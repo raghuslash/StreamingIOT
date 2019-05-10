@@ -49,16 +49,20 @@ def get_pcb_level_data(filt_sig_df,pcb_data_df,HISTBIN_WINDOW):
     
     print('Mode calculated at :', datetime.datetime.now())
     
-    avg_actv_dur = np.mean(pcb_data_df.pcb_actv_dur)
-    med_actv_dur = np.median(pcb_data_df.pcb_actv_dur)
-    dev_actv_dur = np.std(pcb_data_df.pcb_actv_dur)
-    util_factor  = np.sum(pcb_data_df.pcb_actv_dur) / len(filt_sig_df) 
-    
-    print('Number of boards detected        =', len(pcb_data_df))
-    print('Machine utilization factor       =', util_factor*100, '%')
-    print('Average   board active duration  =', avg_actv_dur / 75, 'secs')
-    print('Median    board active duration  =', med_actv_dur / 75, 'secs')
-    print('Deviation board active duration  =', dev_actv_dur / 75, 'secs')
+    if (len(pcb_data_df) > 0):
+        avg_actv_dur = np.mean(pcb_data_df.pcb_actv_dur)
+        med_actv_dur = np.median(pcb_data_df.pcb_actv_dur)
+        dev_actv_dur = np.std(pcb_data_df.pcb_actv_dur)
+        util_factor  = np.sum(pcb_data_df.pcb_actv_dur) / len(filt_sig_df) 
+        
+        print('Number of boards detected        =', len(pcb_data_df))
+        print('Machine utilization factor       =', util_factor*100, '%')
+        print('Average   board active duration  =', avg_actv_dur / 75, 'secs')
+        print('Median    board active duration  =', med_actv_dur / 75, 'secs')
+        print('Deviation board active duration  =', dev_actv_dur / 75, 'secs')
+    else: 
+        print('No PCB identified.')
+    #endif
     
     #Load pcb data onto dataframe
     pcb_level_df = pd.DataFrame(columns=['arvl_index','arvl_tmstmp','dptr_index','dptr_tmstmp','no_of_parts','proc_dur','maint_dur','weightage'])
