@@ -75,7 +75,7 @@ print('Size of pp1_vibr_file  =', pp1_vibr_file.shape)
 
 #-------------------------------------------------------------------------
 #Raw-acceleration to binary sequene conversion
-# filt_sig_pp1 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp1_vibr_file,1,'Y','Y',0.6,1.1)
+filt_sig_pp1 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp1_vibr_file,1,'Y','Y',0.6,1.1)
 
 #Detect PCBs and obtain PCB processing durations
 pcb_data_pp1 = routine_get_pcb_dur.get_pcb_dur(filt_sig_pp1.binry_sig)
@@ -224,9 +224,9 @@ parameters=open('/home/richard/Desktop/LiveParameters/PP1parameters.txt','a+')
 parameters.write(timestr +'\tPP1 working time mode: ' + str(PP_events[PP_events.event==1].working_time.mode().mean())+'\n')
 parameters.close()
 
-if not os.path.exists('/mnt/UltraHD/streamingStates/PP1/merging'):
+if not os.path.exists('/mnt/UltraHD/streamingStates/merging/PP1'):
 
-    os.makedirs('/mnt/UltraHD/streamingStates/PP1/merging')
+    os.makedirs('/mnt/UltraHD/streamingStates/merging/PP1')
 
 # sns.distplot(PP_events.working_time)
 # plt.title('PP1 Working Times Histogram')
@@ -238,7 +238,7 @@ directory='/mnt/UltraHD/streamingStates/PP1'
 timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
 print("Saving States with file name -", timestr+"_PP1.csv")
 PP_events.to_csv('/mnt/UltraHD/streamingStates/PP1/'+ timestr+"_PP1.csv")
-pcb_merge_pp1.to_csv('/mnt/UltraHD/streamingStates/PP1/merging/'+ timestr+"_merging_PP1.csv")
+pcb_merge_pp1.to_csv('/mnt/UltraHD/streamingStates/merging/PP1/'+ timestr+"_merging_PP1.csv")
 
 
 

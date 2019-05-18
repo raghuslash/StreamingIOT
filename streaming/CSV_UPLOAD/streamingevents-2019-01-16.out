@@ -1,8 +1,0 @@
-{ "index":{} }
-{"timestamp":"2019-01-16 12:45:39.811850","event":1,"working_time":103.7361111111,"energy":54434.1,"device":"pickandplace2"}
-{ "index":{} }
-{"timestamp":"2019-01-16 12:47:45.845653","event":1,"working_time":102.875,"energy":58190.0,"device":"pickandplace2"}
-{ "index":{} }
-{"timestamp":"2019-01-16 12:49:48.171959","event":1,"working_time":106.7638888889,"energy":62560.0,"device":"pickandplace2"}
-{ "index":{} }
-{"timestamp":"2019-01-16 12:51:55.019163","event":1,"working_time":103.7638888889,"energy":51740.8,"device":"pickandplace2"}

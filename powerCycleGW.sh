@@ -7,6 +7,8 @@ do
 	gwcmd=""
 	ping -c 4 $GWname;
 	if [ $? -ne 0 ]; then
+		echo ""
+		echo "=========================================================="
 		echo "$GW is not connected!"
 		echo "Restarting smart plug..."
 		if [ $GW == "gwa" ] ; then
