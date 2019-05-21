@@ -143,20 +143,20 @@ do
 
         cd /mnt/UltraHD/streamingStates/merging/PP1
 
-        pp1fname=$(ls -t | head -n1)
-        pp1thisbatch=$pp1fname
+        pp1mfname=$(ls -t | head -n1)
+        pp1mthisbatch=$pp1mfname
 
         cd /home/richard/Desktop/iiotstream/streaming/CSV_UPLOAD
-        if [ "$pp1thisbatch" = "$pp1lastbatch" ]; then
+        if [ "$pp1mthisbatch" = "$pp1mlastbatch" ]; then
                 echo Already exists.
         else
                 echo Pushing Pick and Place 1 states to elasticsearch.
-                python3 csv_upload.py "/mnt/UltraHD/streamingStates/PP1/merging/$pp1fname" $mergingindex
+                python3 csv_upload.py "/mnt/UltraHD/streamingStates/merging/PP1/$pp1mfname" $mergingindex
                 #pp1fname=$(ls -t | head -n1)
         fi
-        pp1lastbatch=$pp1thisbatch
+        pp1mlastbatch=$pp1mthisbatch
 
-                #-------------PP1 states to Database---------------
+                #-------------PP22states to Database---------------
 
         cd /mnt/UltraHD/streamingStates/PP2/
 
@@ -173,20 +173,19 @@ do
         fi
         pp2lastbatch=$pp2thisbatch
 
-                cd /mnt/UltraHD/streamingStates/merging/PP2
-
-        pp2fname=$(ls -t | head -n1)
-        pp2thisbatch=$pp2fname
+        cd /mnt/UltraHD/streamingStates/merging/PP2
+        pp2mfname=$(ls -t | head -n1)
+        pp2mthisbatch=$pp2mfname
 
         cd /home/richard/Desktop/iiotstream/streaming/CSV_UPLOAD
-        if [ "$pp2thisbatch" = "$pp2lastbatch" ]; then
+        if [ "$pp2mthisbatch" = "$pp2mlastbatch" ]; then
                 echo Already exists.
         else
                 echo Pushing Pick and Place 2 states to elasticsearch.
-                python3 csv_upload.py "/mnt/UltraHD/streamingStates/PP2/$pp2fname" $mergingindex
+                python3 csv_upload.py "/mnt/UltraHD/streamingStates/merging/PP2/$pp2mfname" $mergingindex
                 #pp2fname=$(ls -t | head -n1)
         fi
-        pp2lastbatch=$pp2thisbatch
+        pp2mlastbatch=$pp2mthisbatch
 
     
 
