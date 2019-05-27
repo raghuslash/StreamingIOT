@@ -166,8 +166,8 @@ def get_mode(inp_srs,HISTBIN_WINDOW):
     hist_df = hist_df.reset_index()
     hist_df = hist_df.iloc[:,1:len(hist_df.columns)]
 
-    plt.figure(figsize=(18,6));
-    plt.stem(hist_df.start,hist_df.no_occur); plt.grid();
+    #plt.figure(figsize=(18,6));
+    #plt.stem(hist_df.start,hist_df.no_occur); plt.grid();
     
     MAX_OCCUR = hist_df.no_occur.max()
     a = hist_df.index[hist_df.no_occur == MAX_OCCUR]

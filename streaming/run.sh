@@ -49,8 +49,8 @@ do
         cd /home/richard/Desktop/iiotstream/streaming/LD
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/loader.csv
         
-	#cd /home/richard/Desktop/iiotstream/streaming/MAPPING
-        #python3 mapldsp.py 
+	cd /home/richard/Desktop/iiotstream/streaming/MAPPING
+        python3 mapldsp.py 
 	
         cd /home/richard/Desktop/iiotstream/streaming/PP1
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/pickandplace1.csv
@@ -190,24 +190,24 @@ do
     
 
 	
-#	#-------------LD-SP MAPPING to Database---------------
-#
-#	cd /mnt/UltraHD/mapping/LD-SP
-#
-#        ldspfname=$(ls -t | head -n1)
-#        ldspthisbatch=$ldspfname
-#
-#        cd /home/richard/Desktop/iiotstream/streaming/CSV_UPLOAD
-#        if [ "$ldspthisbatch" = "$ldsplastbatch" ]; then
-#                echo Already exists.
-#        else
-#                echo Pushing Board Mappings to elasticsearch.
-#                python3 csv_upload.py "/mnt/UltraHD/mapping/LD-SP/$ldspfname" $mapindex
-#                #ldspfname=$(ls -t | head -n1)
-#        fi
-#        ldsplastbatch=$ldspthisbatch
-#    
-#
+	#-------------LD-SP MAPPING to Database---------------
+
+	cd /mnt/UltraHD/mapping/LD-SP
+
+        ldspfname=$(ls -t | head -n1)
+        ldspthisbatch=$ldspfname
+
+        cd /home/richard/Desktop/iiotstream/streaming/CSV_UPLOAD
+        if [ "$ldspthisbatch" = "$ldsplastbatch" ]; then
+                echo Already exists.
+        else
+                echo Pushing Board Mappings to elasticsearch.
+                python3 csv_upload.py "/mnt/UltraHD/mapping/LD-SP/$ldspfname" $mapindex
+                #ldspfname=$(ls -t | head -n1)
+        fi
+        ldsplastbatch=$ldspthisbatch
+    
+
 #----------------Wait for next Batch--------------------------
 	#exit 1
 

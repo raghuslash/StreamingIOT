@@ -1,14 +1,14 @@
 import pandas as pd
 import os
 import glob
+import sys
 newest = max(glob.iglob('/mnt/UltraHD/streamingStates/LD/*.csv'), key=os.path.getctime)
 tempdf=pd.read_csv(newest)
-ld_boards=tempdf[tempdf['state'] == 1]
+ld_boards=tempdf[tempdf['event'] == 1]
 
 newest = max(glob.iglob('/mnt/UltraHD/streamingStates/SP/*.csv'), key=os.path.getctime)
 tempdf=pd.read_csv(newest)
-sp_boards=tempdf[tempdf['state'] == 1]
-
+sp_boards=tempdf[tempdf['event'] == 1]
 
 
 pattern="%Y-%m-%dT%H:%M:%S.%f"
@@ -38,21 +38,26 @@ for ldindex, ldrow in ld_boards.iterrows():
             spmatch=sprow['timestamp']
         elif posdiff>bestdiff:
 #             print(bestdiff.seconds)
-            if (bestdiff.seconds >19) or (bestdiff.seconds<0):
-
+            if (bestdiff.seconds >19):
                 spmatch='NaN'
             break
+        if spts<ldts:
+            spmatch='NaN'
     try:
         spmatch=spmatch.strftime(pattern)
     except:
         continue
-    matchrow={"BoardID":ldts.strftime(pattern), "LD_Time": ldts.strftime(pattern), "SP_Time": spmatch}
+    matchrow={"BoardID":ldts.strftime('%s'), "LD_Time": ldts.strftime(pattern), "SP_Time": spmatch}
     matching_list.append(matchrow)
 board_mapping=pd.DataFrame(matching_list)
 
 #board_mapping['BoardID'] =  pd.to_datetime(sp_boards['BoardID'], format=pattern)
 #board_mapping['LD_Time'] =  pd.to_datetime(ld_boards['LD_Time'], format=pattern)
 #board_mapping['SP_Time'] =  pd.to_datetime(sp_boards['SP_Time'], format=pattern)
+
+print (board_mapping)
+sys.exit(2)
+
 
 board_mapping.index = board_mapping["BoardID"]
 board_mapping.drop("BoardID",axis=1, inplace=True)

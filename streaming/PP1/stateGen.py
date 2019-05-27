@@ -176,6 +176,10 @@ except:
 
 PP_temp_idle=filt_sig_pp1[['timestamp', 'cor_binry_sig']]
 PP_temp_idle['cor_binry_sig']=PP_temp_idle['cor_binry_sig']*-1
+
+PP_temp_idle['cor_binry_sig'].iloc[0]=(PP_temp_idle['cor_binry_sig'].iloc[1]+1)%2
+PP_temp_idle['cor_binry_sig'].iloc[-1]=(PP_temp_idle['cor_binry_sig'].iloc[-2]+1)%2
+
 idle_times_raw=sp.signal.find_peaks(PP_temp_idle.cor_binry_sig, width=1)
 idle_times_raw_df=pd.DataFrame({"sample_number":idle_times_raw[0], "working_time":idle_times_raw[1]['widths']/72})
 
@@ -193,15 +197,10 @@ try:
 except:
     print("No idle times.")
 
-working_times_df.index=working_times_df.timestamp
-working_times_df.drop('timestamp', axis=1, inplace=True)
 
-idle_times_raw_df.index=idle_times_raw_df.timestamp
-idle_times_raw_df.drop('timestamp', axis=1, inplace=True)
-idle_times_raw_df.drop('sample_number', axis=1, inplace=True)
 
-working_times_df=working_times_df[['event', 'working_time', 'energy']]
-idle_times_df=idle_times_raw_df[['event', 'working_time', 'energy']]
+working_times_df=working_times_df[['event', 'working_time', 'energy','timestamp']]
+idle_times_df=idle_times_raw_df[['event', 'working_time', 'energy', 'timestamp']]
 
 PP_events=pd.DataFrame()
 
@@ -214,9 +213,14 @@ try:
 except:
     print()
 
-
-PP_events['device']='pickandplace1'
-print(PP_events)
+try:
+    PP_events.index=PP_events.timestamp
+    PP_events.drop('timestamp', axis=1, inplace=True)
+    PP_events['device']='pickandplace1'
+    print(PP_events)
+except:
+    print('No events found')
+    sys.exit(1)
 
 timestr = time.strftime("%H-%M")
 print('PP1 working time mode: ', PP_events[PP_events.event==1].working_time.mode().mean())
