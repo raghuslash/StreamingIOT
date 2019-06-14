@@ -5,7 +5,7 @@ if [ ! -z $1 ];
 then
 batch_size=$1
 fi
-
+q_size=`expr $batch_size + 5`
 echo "batch_size:$batch_size";
 #exit;
 
@@ -20,7 +20,7 @@ do
 	rm *
 
 	cd ..
-	sh get_2.sh $batch_size
+	sh get_2.sh $q_size
 	index=`cat index | sed s/helloworld/streamingevents/`
 	rfindex=`cat index | sed s/helloworld/streamingstates/`
 	echo "INDEX - $index"
@@ -33,6 +33,8 @@ do
 	
 	cd data
 	sh dataSplitter.sh
+	cd ..
+	python3 CleanCSVS.py
 	mkdir -p "/mnt/UltraHD/RAW/`date '+%Y-%m-%dT%H-%M-%S'`"
 	cd /mnt/UltraHD/RAW/
 	foldername=$(ls -t | head -n1)
