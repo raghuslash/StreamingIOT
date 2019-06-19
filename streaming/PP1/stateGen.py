@@ -75,13 +75,13 @@ print('Size of pp1_vibr_file  =', pp1_vibr_file.shape)
 
 #-------------------------------------------------------------------------
 #Raw-acceleration to binary sequene conversion
-filt_sig_pp1 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp1_vibr_file,1,'Y','Y',0.6,1.1)
+filt_sig_pp1 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp1_vibr_file,1,'Y','Y',0.25,0.8)
 
 #Detect PCBs and obtain PCB processing durations
 pcb_data_pp1 = routine_get_pcb_dur.get_pcb_dur(filt_sig_pp1.binry_sig)
 
 #Eliminate spuriois PCB detections
-filt_sig_pp1['cor_binry_sig'] = routine_elim_spur_pcb.elim_spur_pcb(filt_sig_pp1.binry_sig,pcb_data_pp1,500)
+filt_sig_pp1['cor_binry_sig'] = routine_elim_spur_pcb.elim_spur_pcb(filt_sig_pp1.binry_sig,pcb_data_pp1,250)
 
 #Recalculate PCB processing durations
 pcb_data_pp1 = routine_get_pcb_dur.get_pcb_dur(filt_sig_pp1.cor_binry_sig)
@@ -95,7 +95,7 @@ pcb_merge_pp1 = pcb_level_pp1
 mrg_binry_pp1 = filt_sig_pp1.cor_binry_sig
 
 THRESHOLD = 0.95
-HIGH_END  = 1.20
+HIGH_END  = 1.50
 
 iter_one = 0
 iter_two = 0

@@ -51,9 +51,9 @@ def rev_merge_pxmty_algo(inp_df,pxmty_df,inp_binry_sig,THRESHOLD,HIGH_END):
             merge_flag = 0
         else:    
             if (inp_df.weightage[i] <= THRESHOLD):
-                str_tmstmp = str(pd.Timestamp(inp_df.dptr_tmstmp[i]) - pd.Timedelta('0 days 00:00:05.000000'))
+                str_tmstmp = str(pd.Timestamp(inp_df.dptr_tmstmp[i]) - pd.Timedelta('0 days 00:00:10.000000'))
                 str_tmstmp = str_tmstmp.replace(' ','T')                
-                end_tmstmp = str(pd.Timestamp(inp_df.dptr_tmstmp[i]) + pd.Timedelta('0 days 00:00:05.000000'))              
+                end_tmstmp = str(pd.Timestamp(inp_df.dptr_tmstmp[i]) + pd.Timedelta('0 days 00:00:10.000000'))              
                 end_tmstmp = end_tmstmp.replace(' ','T')
                 
                 spk_i_num = np.sum((spike_arr >= str_tmstmp) & (spike_arr <= end_tmstmp))
@@ -62,9 +62,9 @@ def rev_merge_pxmty_algo(inp_df,pxmty_df,inp_binry_sig,THRESHOLD,HIGH_END):
                 
                 if (spk_i_num > 0): #valid and first part of pcb
                     if (inp_df.weightage[i-1] <= THRESHOLD):
-                        str_tmstmp = str(pd.Timestamp(inp_df.dptr_tmstmp[i-1]) - pd.Timedelta('0 days 00:00:05.000000'))
+                        str_tmstmp = str(pd.Timestamp(inp_df.dptr_tmstmp[i-1]) - pd.Timedelta('0 days 00:00:10.000000'))
                         str_tmstmp = str_tmstmp.replace(' ','T')                
-                        end_tmstmp = str(pd.Timestamp(inp_df.dptr_tmstmp[i-1]) + pd.Timedelta('0 days 00:00:05.000000'))              
+                        end_tmstmp = str(pd.Timestamp(inp_df.dptr_tmstmp[i-1]) + pd.Timedelta('0 days 00:00:10.000000'))              
                         end_tmstmp = end_tmstmp.replace(' ','T')
                 
                         spk_iml_num = np.sum((spike_arr >= str_tmstmp) & (spike_arr <= end_tmstmp))

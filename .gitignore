@@ -4,3 +4,4 @@
 */*.out
 */*/*.out
 ./tools/data/*
+*/*.txt

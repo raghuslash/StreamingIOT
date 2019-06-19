@@ -52,7 +52,7 @@ def rawaccl_to_binryseq(inp_vibr_df,downsample_rate,use_filt_accl_flag,use_quant
     print('-------------------------------------------------------')
     
     #Perform the rolling-deviation
-    ROLL_DEV_WIN = 75
+    ROLL_DEV_WIN = 50
     rlgdev = nrm.rolling(window=ROLL_DEV_WIN,center=True).std()
     
     #Perform Wiener filtering
@@ -62,7 +62,7 @@ def rawaccl_to_binryseq(inp_vibr_df,downsample_rate,use_filt_accl_flag,use_quant
     tmstmp_arr = np.array(inp_vibr_df.timestamp[0+LOSS:len(inp_vibr_df)-LOSS])[:,np.newaxis]
     
     print('Performing Wiener filtering')
-    WIEN_FILT_WIN = 75
+    WIEN_FILT_WIN = 50
     x = np.array(rlgdev[0+LOSS:len(inp_vibr_df)-LOSS])  
     y = signal.wiener(x,mysize=WIEN_FILT_WIN)
     
@@ -144,18 +144,18 @@ def rawaccl_to_binryseq(inp_vibr_df,downsample_rate,use_filt_accl_flag,use_quant
     # plt.stem(h1_df.start,h1_df.no_occur); plt.grid();
     
     #Determine lower threshold
-    a = h1_df.query('(start >= 0.2) & (start <= 0.8) & (no_occur > 0)')
+    a = h1_df.query('(start >= 0.3) & (start <= 0.8) & (no_occur > 0)')
     b = a.sort_values('no_occur',ascending=True)
     b = b.reset_index()
     b = b.iloc[:,1:len(b.columns)]
     if (len(b) > 0):
-        if (HYS_LOW_THRESH > 0.2):
+        if (HYS_LOW_THRESH > 0.3):
             HYS_LOW_THRESH = np.round(b.end[0],2) #Precision 2 places after decimal point 
         else:
-            HYS_LOW_THRESH = 0.2  #Set to default low level
+            HYS_LOW_THRESH = HYS_LOW_THRESH  #Use the supplied value
         #end-if    
     else:
-        HYS_LOW_THRESH = 0.2      #Set to default low level
+        HYS_LOW_THRESH = 0.3      #Set to default low level
     #end-if
     # HYS_LOW_THRESH = np.round(b.end[0],2) #Precision 2 places after decimal point 
     

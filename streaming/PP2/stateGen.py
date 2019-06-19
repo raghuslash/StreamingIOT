@@ -38,7 +38,7 @@ importlib.reload(routine_merging_algo)
 importlib.reload(routine_merge_pxmty_algo)
 importlib.reload(routine_rev_merge_pxmty_algo)
 
-FOLDER_NAME = 'csv_folders/helloworld-2019-05-03/'
+# FOLDER_NAME = 'csv_folders/helloworld-2019-05-03/'
 
 #-----------------------------------------------------------
 #Get the data from pp2 csv file
@@ -88,7 +88,7 @@ print('Size of pp2_vibr_file  =', pp2_vibr_file.shape)
 
 #----------------------------------------------------------------------------------------------------------------
 #Convert raw acceleration to binary sequence
-filt_sig_pp2 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp2_vibr_file,1,'Y', 'Y', 0.2,1.1)
+filt_sig_pp2 = routine_rawaccl_to_binryseq.rawaccl_to_binryseq(pp2_vibr_file,1,'Y', 'Y', 0.25,0.8)
 
 #Detect PCBs and obtain PCB processing durations
 pcb_data_pp2 = routine_get_pcb_dur.get_pcb_dur(filt_sig_pp2.binry_sig)
@@ -108,7 +108,7 @@ pcb_merge_pp2 = pcb_level_pp2
 mrg_binry_pp2 = filt_sig_pp2.cor_binry_sig
 
 THRESHOLD = 0.95
-HIGH_END  = 1.30
+HIGH_END  = 1.50
 
 iter_one = 0
 iter_two = 0
