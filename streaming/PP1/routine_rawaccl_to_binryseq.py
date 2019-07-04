@@ -52,7 +52,7 @@ def rawaccl_to_binryseq(inp_vibr_df,downsample_rate,use_filt_accl_flag,use_quant
     print('-------------------------------------------------------')
     
     #Perform the rolling-deviation
-    ROLL_DEV_WIN = 50
+    ROLL_DEV_WIN = 36
     rlgdev = nrm.rolling(window=ROLL_DEV_WIN,center=True).std()
     
     #Perform Wiener filtering
@@ -62,7 +62,7 @@ def rawaccl_to_binryseq(inp_vibr_df,downsample_rate,use_filt_accl_flag,use_quant
     tmstmp_arr = np.array(inp_vibr_df.timestamp[0+LOSS:len(inp_vibr_df)-LOSS])[:,np.newaxis]
     
     print('Performing Wiener filtering')
-    WIEN_FILT_WIN = 50
+    WIEN_FILT_WIN = 36
     x = np.array(rlgdev[0+LOSS:len(inp_vibr_df)-LOSS])  
     y = signal.wiener(x,mysize=WIEN_FILT_WIN)
     
