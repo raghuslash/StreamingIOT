@@ -213,9 +213,8 @@ restarts_df=pd.DataFrame({"timestamp":downtimes.iloc[restarts[0]].timestamp, 'an
 
 
 PP1_ano_events=pd.concat([refills_df, restarts_df])
-PP1_ano_events.index=PP1_ano_events.timestamp
+PP1_ano_events.index=PP1_ano_events.timestamp.apply(lambda x: x.isoformat())
 PP1_ano_events.drop('timestamp', axis=1, inplace=True)
-
 # In[ ]:
 
 

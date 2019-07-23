@@ -124,7 +124,12 @@ ldr_refill_events=pd.DataFrame({"timestamp":loader_raw.iloc[ldr_refill_df.sample
 ldr_stack_events=pd.DataFrame({"timestamp":loader_raw.iloc[ldr_stack_df.sample_number].timestamp, "anomalous_event":2, "device":"loader"})
 
 
-# In[23]:
+# In[22]:
+
+
+#ldr_stack_events=pd.DataFrame({"timestamp":loader_raw.iloc[[0]].timestamp, "anomalous_event":2, "device":"loader"})
+
+#os.makedirs('/mnt/UltraHD/streamingAno/LD') In[23]:
 
 
 # plt.plot(loader_raw.timestamp, loader_raw.acc, 'r')
@@ -136,7 +141,7 @@ ldr_stack_events=pd.DataFrame({"timestamp":loader_raw.iloc[ldr_stack_df.sample_n
 
 
 LD_ano_events=pd.concat([ldr_refill_events, ldr_stack_events])
-LD_ano_events.index=LD_ano_events.timestamp
+LD_ano_events.index=LD_ano_events.timestamp.apply(lambda x: x.isoformat())
 LD_ano_events.drop('timestamp', axis=1, inplace=True)
 
 # In[ ]:
