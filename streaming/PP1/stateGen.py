@@ -149,6 +149,8 @@ filt_sig_pp1['mrg_binry_sig'] = mrg_binry_pp1
 #Write processed info to csv file
 filt_sig_pp1.to_csv('PP1_Processed_DataFrame.csv')
 pcb_merge_pp1.to_csv('PP1_PCB_Merged_DataFrame.csv')
+pcb_merge_pp1=pcb_merge_pp1[pcb_merge_pp1.weightage > 0.5]
+pcb_merge_pp1.to_csv('PP1_PCB_Merged_Corrected_DataFrame.csv')
 pp1_pxstr_file.to_csv('PP1_Proximity_Entry_DataFrame.csv')
 #-----------------------------------------------------------------------------
 
@@ -238,12 +240,10 @@ if not os.path.exists('/mnt/UltraHD/streamingStates/merging/PP1'):
 
 directory='/mnt/UltraHD/streamingStates/PP1'
 
-
 timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
 print("Saving States with file name -", timestr+"_PP1.csv")
 PP_events.to_csv('/mnt/UltraHD/streamingStates/PP1/'+ timestr+"_PP1.csv")
-pcb_merge_pp1.to_csv('/mnt/UltraHD/streamingStates/merging/PP1/'+ timestr+"_merging_PP1.csv")
-
+pcb_merge_pp1.to_csv('/mnt/UltraHD/streamingStates/merging/PP1/'+ timestr+"_merging_correction_PP1.csv")
 
 
 # plt.plot(pp1_vibr_file.timestamp, pp1_vibr_file.net_accl)

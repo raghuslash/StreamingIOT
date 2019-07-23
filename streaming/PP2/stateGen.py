@@ -163,6 +163,8 @@ filt_sig_pp2['mrg_binry_sig'] = mrg_binry_pp2
 # print('Writing output files...')
 filt_sig_pp2.to_csv('PP2_Processed_DataFrame.csv')
 pcb_merge_pp2.to_csv('PP2_PCB_Merged_DataFrame.csv')
+pcb_merge_pp2=pcb_merge_pp2[pcb_merge_pp2.weightage > 0.5]
+pcb_merge_pp2.to_csv('PP2_PCB_Merged_Corrected_DataFrame.csv')
 pp2_pxend_file.to_csv('PP2_Proximity_Exit_DataFrame.csv')
 #-----------------------------------------------------------------------------
 
@@ -257,7 +259,7 @@ directory='/mnt/UltraHD/streamingStates/PP2'
 timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
 print("Saving States with file name -", timestr+"_PP2.csv")
 PP_events.to_csv('/mnt/UltraHD/streamingStates/PP2/'+ timestr+"_PP2.csv")
-pcb_merge_pp2.to_csv('/mnt/UltraHD/streamingStates/merging/PP2/'+ timestr+"_merging_PP2.csv")
+pcb_merge_pp2.to_csv('/mnt/UltraHD/streamingStates/merging/PP2/'+ timestr+"_merging_corrected_PP2.csv")
 
 
 
