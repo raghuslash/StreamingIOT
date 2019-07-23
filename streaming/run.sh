@@ -218,7 +218,7 @@ do
 
         ldanofname=$(ls -t | head -n1)
         ldanothisbatch=$ldanofname
-
+	
         cd /home/richard/Desktop/iiotstream/streaming/CSV_UPLOAD
         if [ "$ldanothisbatch" = "$ldanolastbatch" ]; then
                 echo Already exists.

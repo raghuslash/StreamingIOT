@@ -47,7 +47,7 @@ loader_raw.timestamp=pd.to_datetime(loader_raw.timestamp)
 
 
 loader_raw.acc=(loader_raw["data.ax"]**2+loader_raw["data.az"]**2)**0.5
-loader_raw.timestamp=loader_raw.timestamp + datetime.timedelta(hours=5, minutes=30)
+#loader_raw.timestamp=loader_raw.timestamp + datetime.timedelta(hours=5, minutes=30)
 
 
 # In[4]:
