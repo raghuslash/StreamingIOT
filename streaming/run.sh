@@ -26,7 +26,9 @@ do
 	echo "INDEX - $index"
 	mapindex=`cat index | sed s/helloworld/mapping/`
 	echo "MAPPING INDEX - $mapindex"
-        mergingindex=`cat index | sed s/helloworld/merging/`
+    mergingindex=`cat index | sed s/helloworld/merging/`
+    anoindex=`cat index | sed s/helloworld/anomalyevents/`
+	echo "ANOMALY INDEX - $anoindex"
 	#exit
 	 
 	cp dataSplitter.sh data/ 
@@ -48,16 +50,17 @@ do
 	cd /home/richard/Desktop/iiotstream/streaming/SP
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/screenprinter_plus_vaf.csv
 
-        cd /home/richard/Desktop/iiotstream/streaming/LD
+    cd /home/richard/Desktop/iiotstream/streaming/LD
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/loader.csv
-        
+        python3 anomalyGen.py /home/richard/Desktop/iiotstream/tools/data/loader.csv
+
 	cd /home/richard/Desktop/iiotstream/streaming/MAPPING
         python3 mapldsp.py 
 	
-        cd /home/richard/Desktop/iiotstream/streaming/PP1
+    cd /home/richard/Desktop/iiotstream/streaming/PP1
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/pickandplace1.csv
 
-        cd /home/richard/Desktop/iiotstream/streaming/PP2
+    cd /home/richard/Desktop/iiotstream/streaming/PP2
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/pickandplace2.csv
 	
 	
@@ -209,7 +212,23 @@ do
         fi
         ldsplastbatch=$ldspthisbatch
     
+	#-------------LD Anomalous Events to Database---------------
 
+	cd /mnt/UltraHD/streamingAno/LD
+
+        ldanofname=$(ls -t | head -n1)
+        ldanothisbatch=$ldanofname
+
+        cd /home/richard/Desktop/iiotstream/streaming/CSV_UPLOAD
+        if [ "$ldanothisbatch" = "$ldanolastbatch" ]; then
+                echo Already exists.
+        else
+                echo Pushing Loader Anomalies to elasticsearch.
+                python3 csv_upload.py "/mnt/UltraHD/streamingAno/LD/$ldanofname" $anoindex
+                #ldspfname=$(ls -t | head -n1)
+        fi
+        ldanolastbatch=$ldanothisbatch
+        
 #----------------Wait for next Batch--------------------------
 	#exit 1
 
