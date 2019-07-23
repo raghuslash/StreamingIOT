@@ -11,7 +11,7 @@ import scipy.signal
 import numpy as np
 import seaborn as sns
 import time
-
+import datetime
 if len(sys.argv) <  2:
 
         print("No filename passed. Place the CSV file in the same folder.")
@@ -53,7 +53,7 @@ loader_raw.timestamp=loader_raw.timestamp + datetime.timedelta(hours=5, minutes=
 # In[4]:
 
 
-get_ipython().run_line_magic('matplotlib', '')
+#get_ipython().run_line_magic('matplotlib', '')
 
 
 # In[5]:
