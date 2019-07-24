@@ -230,7 +230,7 @@ except:
     print()
 
 try:
-        PP_events.index=PP_events.timestamp
+        PP_events.index=PP_events.timestamp.apply(lambda x: x.isoformat())
         PP_events.drop('timestamp', axis=1, inplace=True)
         PP_events['device']='pickandplace2'
         print(PP_events)

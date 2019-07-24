@@ -61,7 +61,7 @@ acc=raw_ld[["timestamp", "acc"]]
 acc.set_index('timestamp')
 test_ld=acc
 test_ld['acc']=pd.Series.to_frame(test_ld.acc.rolling(100, center=True).std())
-#test_ld['timestamp'] =  pd.to_datetime(test_ld['timestamp'])
+test_ld['timestamp'] =  pd.to_datetime(test_ld['timestamp'])
 
 # In[7]:
 
@@ -93,7 +93,7 @@ LD_events=pd.DataFrame({"timestamp":test_ld.iloc[loading_delays_rawdf.sample_num
 
 # In[22]:
 
-LD_events.index=LD_events.timestamp
+LD_events.index=LD_events.timestamp.apply(lambda x: x.isoformat())
 LD_events.drop('timestamp', axis=1, inplace=True)
 LD_events['energy']=float('nan')
 

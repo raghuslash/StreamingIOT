@@ -47,7 +47,7 @@ except:
 
 raw_sp.sort_values(by=['timestamp'])
 raw_sp.reset_index(inplace=True)
-#raw_sp['timestamp'] =  pd.to_datetime(raw_sp['timestamp'])
+raw_sp['timestamp'] =  pd.to_datetime(raw_sp['timestamp'])
 # In[5]:
 
 test_sp=raw_sp
@@ -111,16 +111,16 @@ for x, row in idles.iterrows():
 
 # In[12]:
 
-SP_events.index=SP_events.timestamp
+SP_events.index=SP_events.timestamp.apply(lambda x: x.isoformat())
 SP_events.drop('timestamp', axis=1, inplace=True)
 SP_events.drop('index', axis=1, inplace=True)
 
-cleanings.index=cleanings.timestamp
+cleanings.index=cleanings.timestamp.apply(lambda x: x.isoformat())
 cleanings.drop('timestamp', axis=1, inplace=True)
 cleanings.drop('index', axis=1, inplace=True)
 
 
-idles.index=idles.timestamp
+idles.index=idles.timestamp.apply(lambda x: x.isoformat())
 idles.drop('timestamp', axis=1, inplace=True)
 idles.drop('index', axis=1, inplace=True)
 

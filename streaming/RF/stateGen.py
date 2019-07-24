@@ -36,6 +36,7 @@ except:
 
 
 rf_raw.dropna(inplace=True, axis=0)
+rf_raw['timestamp'] = pd.to_datetime(rf_raw['timestamp'])
 rf_raw.sort_values(by=['timestamp'], inplace=True)
 rf_raw.reset_index(inplace=True)
 
@@ -129,7 +130,7 @@ except:
 
 
 
-RF_states.index=RF_states.timestamp
+RF_states.index=RF_states.timestamp.apply(lambda x: x.isoformat())
 RF_states.drop('timestamp', axis=1, inplace=True)
 RF_states['device']='reflowoven'
 print(RF_states)
