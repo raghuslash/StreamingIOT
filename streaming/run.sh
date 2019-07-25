@@ -36,7 +36,7 @@ do
 	cd data
 	sh dataSplitter.sh
 	cd ..
-	python3 CleanCSVs.py
+	#python3 CleanCSVs.py
 	mkdir -p "/mnt/UltraHD/RAW/`date '+%Y-%m-%dT%H-%M-%S'`"
 	cd /mnt/UltraHD/RAW/
 	foldername=$(ls -t | head -n1)
