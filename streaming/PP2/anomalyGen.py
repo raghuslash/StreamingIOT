@@ -10,7 +10,7 @@ import numpy
 import scipy.signal
 import seaborn
 import datetime
-import pandas_helper_calc
+#import pandas_helper_calc
 import os
 import sys
 import time
@@ -215,9 +215,9 @@ downtimes['sum']=(downtimes['sum']-downtimes['sum'].mean())/downtimes['sum'].mea
 downtimes['sum']=pd.Series.to_frame(downtimes['sum'].rolling(30,center=True).mean())
 refills=scipy.signal.find_peaks(downtimes['sum'], height=(20,30), width=1, distance=5*75)
 restarts=scipy.signal.find_peaks(downtimes['sum'], height=(40), width=1, distance=20*75)
-refills_df=pd.DataFrame({"timestamp":downtimes.iloc[refills[0]].timestamp, 'anomalous_event':1, 'device':'pickandplace1'})
+refills_df=pd.DataFrame({"timestamp":downtimes.iloc[refills[0]].timestamp, 'anomalous_event':1, 'device':'pickandplace2'})
 # refills_df=pd.DataFrame({"timestamp":downtimes.iloc[refills[0]].timestamp, 'a_event':1})
-restarts_df=pd.DataFrame({"timestamp":downtimes.iloc[restarts[0]].timestamp, 'anomalous_event':2, 'device':'pickandplace1'})
+restarts_df=pd.DataFrame({"timestamp":downtimes.iloc[restarts[0]].timestamp, 'anomalous_event':2, 'device':'pickandplace2'})
 # restarts_df=pd.DataFrame({"timestamp":downtimes.iloc[restarts[0]].timestamp, 'a_event':2})
 
 

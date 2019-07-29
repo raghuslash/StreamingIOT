@@ -20,14 +20,15 @@ do
 	rm *
 
 	cd ..
-	sh get_2.sh $q_size
+	#sh get_2.sh $q_size
+	sh get_2.sh $batch_size
 	index=`cat index | sed s/helloworld/streamingevents/`
 	rfindex=`cat index | sed s/helloworld/streamingstates/`
 	echo "INDEX - $index"
 	mapindex=`cat index | sed s/helloworld/mapping/`
 	echo "MAPPING INDEX - $mapindex"
-    mergingindex=`cat index | sed s/helloworld/merging/`
-    anoindex=`cat index | sed s/helloworld/anomalyevents/`
+    	mergingindex=`cat index | sed s/helloworld/merging/`
+    	anoindex=`cat index | sed s/helloworld/anomalyevents/`
 	echo "ANOMALY INDEX - $anoindex"
 	#exit
 	 
@@ -50,19 +51,20 @@ do
 	cd /home/richard/Desktop/iiotstream/streaming/SP
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/screenprinter_plus_vaf.csv
 
-    cd /home/richard/Desktop/iiotstream/streaming/LD
+    	cd /home/richard/Desktop/iiotstream/streaming/LD
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/loader.csv
         python3 anomalyGen.py /home/richard/Desktop/iiotstream/tools/data/loader.csv
 
 	cd /home/richard/Desktop/iiotstream/streaming/MAPPING
         python3 mapldsp.py 
 	
-    cd /home/richard/Desktop/iiotstream/streaming/PP1
+    	cd /home/richard/Desktop/iiotstream/streaming/PP1
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/pickandplace1.csv
-
-    cd /home/richard/Desktop/iiotstream/streaming/PP2
+	python3 anomalyGen.py
+    
+	cd /home/richard/Desktop/iiotstream/streaming/PP2
         python3 stateGen.py /home/richard/Desktop/iiotstream/tools/data/pickandplace2.csv
-	
+	python3 anomalyGen.py
 	
 	
 	
@@ -228,6 +230,40 @@ do
                 #ldspfname=$(ls -t | head -n1)
         fi
         ldanolastbatch=$ldanothisbatch
+        
+	#-------------PP1 Anomalous Events to Database---------------
+
+	cd /mnt/UltraHD/streamingAno/PP1
+
+        pp1anofname=$(ls -t | head -n1)
+        pp1anothisbatch=$pp1anofname
+	
+        cd /home/richard/Desktop/iiotstream/streaming/CSV_UPLOAD
+        if [ "$pp1anothisbatch" = "$pp1anolastbatch" ]; then
+                echo Already exists.
+        else
+                echo Pushing PP1 Anomalies to elasticsearch.
+                python3 csv_upload.py "/mnt/UltraHD/streamingAno/PP1/$pp1anofname" $anoindex
+                #ldspfname=$(ls -t | head -n1)
+        fi
+        pp1anolastbatch=$pp1anothisbatch
+        
+	#-------------PP2 Anomalous Events to Database---------------
+
+	cd /mnt/UltraHD/streamingAno/PP2
+
+        pp2anofname=$(ls -t | head -n1)
+        pp2anothisbatch=$pp2anofname
+	
+        cd /home/richard/Desktop/iiotstream/streaming/CSV_UPLOAD
+        if [ "$pp2anothisbatch" = "$pp2anolastbatch" ]; then
+                echo Already exists.
+        else
+                echo Pushing PP2 Anomalies to elasticsearch.
+                python3 csv_upload.py "/mnt/UltraHD/streamingAno/PP2/$pp2anofname" $anoindex
+                #ldspfname=$(ls -t | head -n1)
+        fi
+        pp2anolastbatch=$pp2anothisbatch
         
 #----------------Wait for next Batch--------------------------
 	#exit 1

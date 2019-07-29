@@ -70,7 +70,7 @@ test_sp['sum_forcleaning']=pd.Series.to_frame(test_sp['data.A1'].rolling(12, cen
 
 # In[9]:
 test_sp['idle']=2
-printing_delays_raw=scipy.signal.find_peaks(test_sp['sum'], height=(11, 15), distance=sptimethresh, width=1)
+printing_delays_raw=scipy.signal.find_peaks(test_sp['sum'], height=(12.25, 15), distance=sptimethresh, width=1)
 printing_delays_raw_df=pd.DataFrame({"sample_number":printing_delays_raw[0], "working_time":printing_delays_raw[1]['widths']})
 cleaning_delays_raw=scipy.signal.find_peaks(test_sp['sum_forcleaning'], height=60, distance=sptimethresh, width=1)
 cleaning_delays_raw_df=pd.DataFrame({"sample_number":cleaning_delays_raw[0], "working_time":cleaning_delays_raw[1]['widths']})
@@ -88,6 +88,11 @@ idle_delays_raw=scipy.signal.find_peaks(test_sp['idle'], height=.5, width=1)
 idle_delays_raw_df=pd.DataFrame({"sample_number":idle_delays_raw[0], "working_time":idle_delays_raw[1]['widths']})
 
 SP_events=pd.DataFrame({"timestamp":test_sp.iloc[printing_delays_raw_df.sample_number].timestamp, "event":1, "working_time":printing_delays_raw_df.working_time.tolist()})
+
+#remove shot noisy detections
+SP_events=SP_events[SP_events['working_time']>=4]
+
+
 cleanings=pd.DataFrame({"timestamp":test_sp.iloc[cleaning_delays_raw_df.sample_number].timestamp, "event":2, "working_time":cleaning_delays_raw_df.working_time.tolist()})
 SP_events.reset_index(inplace=True)
 cleanings.reset_index(inplace=True)
